@@ -2,10 +2,22 @@ import warnings
 import time
 import re
 import os
-from rich.console import Console
-from rich.markdown import Markdown
+import socket
+try:
+    from rich.console import Console
+    from rich.markdown import Markdown
+except Exception:
+    class _PlainConsole:
+        def print(self, *args, **kwargs):
+            print(*args)
+
+    class _PlainMarkdown(str):
+        pass
+
+    Console = _PlainConsole
+    Markdown = _PlainMarkdown
 from langchain_community.document_loaders import TextLoader
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_community.vectorstores import Chroma
 from langchain_ollama import OllamaLLM, OllamaEmbeddings
 
@@ -21,8 +33,25 @@ console = Console()
 # ──────────────────────────────────────────────
 TEXTBOOK_PATH = "textbook.txt"
 VECTOR_DB_DIR = "./db"
-EMBED_MODEL = "nomic-embed-text"
-LLM_MODEL = "deepseek-r1:8b"  ## Change model here
+EMBED_MODEL = os.getenv("EMBED_MODEL", "nomic-embed-text")
+LLM_MODEL = os.getenv("LLM_MODEL", "deepseek-r1:8b")  ## Change model here
+OLLAMA_HOST = os.getenv("OLLAMA_HOST", "http://127.0.0.1:11434")
+
+
+def _wait_for_ollama(host: str, timeout: float = 2.0) -> bool:
+    try:
+        addr = host.replace("http://", "").replace("https://", "")
+        if "/" in addr:
+            addr = addr.split("/")[0]
+        if ":" in addr:
+            h, p = addr.split(":", 1)
+            port = int(p)
+        else:
+            h, port = addr, 11434
+        with socket.create_connection((h, port), timeout=timeout):
+            return True
+    except Exception:
+        return False
 
 # ──────────────────────────────────────────────
 # Step 1: Load Textbook
@@ -46,7 +75,7 @@ console.print(f"✅ Split into {len(texts)} chunks.", style="bold green")
 # ──────────────────────────────────────────────
 # Step 3: Load or Create Vector Database
 # ──────────────────────────────────────────────
-emb = OllamaEmbeddings(model=EMBED_MODEL)
+emb = OllamaEmbeddings(model=EMBED_MODEL, base_url=OLLAMA_HOST)
 
 if os.path.exists(VECTOR_DB_DIR) and os.listdir(VECTOR_DB_DIR):
     console.print("📂 Loading existing vector DB (cached)...", style="bold yellow")
@@ -61,7 +90,15 @@ else:
 # Step 4: Initialize LLM
 # ──────────────────────────────────────────────
 console.print("🤖 Initializing DeepSeek LLM...", style="bold yellow")
-llm = OllamaLLM(model=LLM_MODEL)
+if not _wait_for_ollama(OLLAMA_HOST):
+    console.print(
+        f"❌ Can't connect to Ollama at {OLLAMA_HOST}. Ensure it's running.",
+        style="bold red",
+    )
+    console.print(f"Tip: Pull required models first: ollama pull {LLM_MODEL} ; ollama pull {EMBED_MODEL}")
+    raise SystemExit(1)
+
+llm = OllamaLLM(model=LLM_MODEL, base_url=OLLAMA_HOST)
 console.print("✅ LLM ready!\n", style="bold green")
 
 # ──────────────────────────────────────────────
@@ -117,10 +154,15 @@ Question: {user_query}
     full_response = ""
 
     # Start LLM response
-    for chunk in llm.stream(prompt):
-        full_response += chunk
-        # print instantly without sentence-by-sentence delay
-        print(chunk, end="", flush=True)
+    try:
+        for chunk in llm.stream(prompt):
+            full_response += chunk
+            # print instantly without sentence-by-sentence delay
+            print(chunk, end="", flush=True)
+    except Exception as e:
+        console.print(f"\n❌ Error during generation: {e}", style="bold red")
+        console.print(f"Check that Ollama is running at {OLLAMA_HOST} and models are pulled.")
+        continue
 
     print("\n")
     conversation_history.append(f"DeepSeek: {full_response}")

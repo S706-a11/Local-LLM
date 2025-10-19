@@ -38,10 +38,11 @@ textbook_create/         # Utilities for creating the textbook text file.
 
 After installing Ollama, open your terminal and run:
 
-```sh
+```powershell
+# First time: download models
 ollama pull deepseek-r1:8b
 ollama pull nomic-embed-text
-## or which ever model you want to use
+# Or choose other models per your preference
 ```
 
 You’ll now have a local chatbot that works entirely offline.
@@ -58,14 +59,11 @@ You’ll now have a local chatbot that works entirely offline.
 
 3. **Install Python dependencies**
 
-   ```sh
-   python -m venv venv
-   # On Windows:
-   .\venv\Scripts\activate
-   # On macOS/Linux:
-   source venv/bin/activate
-   ```
-   ```sh
+   ```powershell
+   # Create and activate a venv (Windows PowerShell)
+   py -3 -m venv .venv
+   .\.venv\Scripts\Activate.ps1
+   # Install deps
    pip install -r requirements.txt
    ```
    *(If `requirements.txt` is missing, install any needed packages manually as you run the scripts.)*
@@ -75,13 +73,38 @@ You’ll now have a local chatbot that works entirely offline.
    - Make sure the python files are set to use the correct model name.
 
 5. **Run the main script**
-   ```sh
+   ```powershell
    python run_llm.py
    ```
    or
-   ```sh
-   python textbook_llm.py
-   ```
+    ```powershell
+    python textbook_llm.py
+    ```
+
+### Optional: custom Ollama host
+
+If Ollama runs on a different machine or port, set `OLLAMA_HOST`:
+
+```powershell
+$env:OLLAMA_HOST = "http://127.0.0.1:11434"   # default
+# or, e.g. remote docker/another PC
+$env:OLLAMA_HOST = "http://192.168.1.50:11434"
+```
+
+The scripts will use `OLLAMA_HOST` automatically for both the LLM and embeddings.
+
+---
+
+## Troubleshooting
+
+- Error: `[WinError 10061] No connection could be made ...` or `httpx.ConnectError`  
+   → Ollama isn't reachable. Make sure it's running and the host/port are correct. Try opening the Ollama app on Windows or run `ollama serve`. Also ensure the model is pulled: `ollama pull deepseek-r1:8b`.
+
+- Error: `ModuleNotFoundError: No module named 'rich'`  
+   → Install dependencies: `pip install -r requirements.txt`. The scripts include a fallback if `rich` isn't installed, but installing it gives nicer output.
+
+- First query is slow  
+   → The vector DB and model may be initializing or downloading on first run. Subsequent runs will be much faster.
 
 6. **Interact with your local LLM!**
 

@@ -3,3 +3,7 @@ langchain_community
 langchain
 langchain_huggingface
 pypdf
+rich
+chromadb
+ollama
+langchain_text_splitters
