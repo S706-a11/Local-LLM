@@ -1,0 +1,3310 @@
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Software Engineering
+• The application of a systematic, disciplined, quantifiable approach 
+to development, operation, and maintenance of software; that is, 
+the application of engineering to software ( IEEE, 1990)
+• Software engineering is an engineering discipline that is concerned 
+with all aspects of software production from the early stage of 
+system specification to maintaining the system after it has gone 
+into use. (Ian Sommerville, 2007)
+• “Systematic, disciplined, and quantifiable”
+• “Adaptability and agility”
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+System Engineering
+• An interdisciplinary collaborative approach 
+to derive, evolve, and verify a life cycle 
+balanced system solution that satisfies 
+customer expectations and meets public 
+acceptability (IEEE, 1984)
+• Software engineering is a part of it.
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Software Engineering Layers
+A “Quality” Focus
+Process Model
+Methods
+Tools
+A “Quality” Focus
+The bedrock to 
+support
+•Continuous 
+process 
+improvement
+•Concept 
+Development
+Process provides basis for
+•Work products
+•Key Process Areas (KPAs)
+•Project Management
+o Planning 
+o Milestones
+o Quality Assurance
+Methods involves how-tos / 
+tasks
+•T echnical Activities
+o Requirements Analysis
+o Construction & Testing
+o Support
+Tools
+•Automated or 
+semi-automated 
+support for the 
+process and the 
+methods
+•CASE (Computer 
+Aided System 
+Engineering)
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Overview
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+What is Software?
+• Computer programs and associated 
+documentation such as requirements, design 
+models, configuration files, and user 
+manuals
+• Software products may be
+• Generic - developed to be sold to a range of different customers 
+e.g. PC software such as Excel or Word.
+• Bespoke (Custom) - developed for a single customer according 
+to their specification.
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Software Types
+• Types of software products
+• Application software
+• System software
+• Single application
+• Suite of application
+• Business software products
+• Consumer software products
+• Software as a service
+• Etc.
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Roles of Software
+▪
+▪“Software is both a product and a 
+vehicle for delivering a product”
+▪ Pressman (2001)
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+What are the Attributes of Good Software?
+• The software should deliver the required functionality and 
+performance to the user and should be maintainable, 
+dependable and acceptable.
+• Maintainability
+• Software must evolve to meet changing needs
+• Dependability
+• Software must be trustworthy
+• Efficiency
+• Software should not make wasteful use of system resources
+• Acceptability
+• Software must be accepted by the users for which it was designed. This means it must 
+be understandable, usable and compatible with other systems.
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+What do you need to build a software product?
+• Software development process
+• Software development methods
+• Software engineering standards
+• Software engineering tools (CASE)
+• More importantly, you need good People 
+and good Management.
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Software and Engineering
+• Software is a work product of software 
+professionals.
+• Software engineering contains a software 
+engineering process and tools for building software.
+• Software engineering goals  are to build high quality 
+complex systems in a timely manner.
+• Work products include programs and content/data.
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Software domains
+• System
+• Application
+• Engineering/Scientific
+• Embedded
+• Product-line
+• Web/mobile
+• AI
+• Etc.
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Legacy Software
+• State-of-the-art software
+• Legacy software
+• Developed decades ago.
+• Continuously modified to meet changes.
+• Subjected to adaptation, enhancement, extension and re-
+engineering.
+• Changes are inevitable.
+• Software evolve over time.
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Time
+Failure
+Rate
+Software and Failure
+Idealized Curve
+Actual Curve
+Change
+Increased failure rate 
+due to side effects
+
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Changes and Cost
+Definition Development Support
+(After released)
+1
+x
+1.5-6x
+60-
+100x
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Problems
+• Costs
+• Complexity
+• New technologies
+• User expectations
+• Improvement
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Software Engineering Errors: A Survey
+• According to Prof. Thomas Huckle from Institut für 
+Informatik in Germany
+• INTEL: no more than 80-90 Bugs in Pentium.
+• Standard Software: 25 bugs per 1000 lines of program.
+• Good Software: 2 errors per 1,000 lines.
+• Space Shuttle Software: < 1 errors per 10,000 lines.
+• Cellular Phone: 200,000 lines of program, up to 600
+• errors.
+• Windows95: 10 million lines, up to 200 000 errors.
+• software are all buggy ?
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Software Engineering Failures: A Survey
+• Ariane 5 Rocket Explodes
+• Approximate loss: $370 million
+• Lesson learned:
+• Reuse of anything can be dangerous. The changes and their 
+consequences must be fully analyzed before implementing reuse. 
+• Test cases must be developed for real environment.
+• Software systems must be robust to errors and exceptions.
+
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Software Engineering Failures: A Survey
+• Airbus 380 Delivery Delays
+• Approximate loss: 4.8 billion euros. 
+• Two CEOs of Airbus resigned.
+• Lesson learned:
+• Standardize of software tools is important.
+• Loss in communication can cause tremendous loss in 
+time and money.
+
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+What is A Software Process?
+• A set of activities whose goal is the development or 
+evolution of software.
+• Generic activities in all software processes are:
+• Definition - what the system should do and its 
+development constraints
+• Development - production and testing of the software 
+system
+• Support – maintenance and changing the software in 
+response to changing demands.
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Software Development Terminologies
+• Methodology (or method)
+• A specific collection of principles/practices
+• Framework
+• An outline that requires customization
+• Model
+• A description that can be implemented using any 
+method/framework
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Software Engineering 
+Standards• Professional standards
+• e.g. IEEE 12207
+• International standards
+• e.g. ISO 25000 (Quality), IEC 15504 (SPICE)
+• Industry standards
+• e.g. XML, UML, CMMI
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+CASE Tools
+• Computer Aided Software Engineering
+• Any computer-based tool for software definition, development, and 
+support
+• Structured Analysis (SA)
+• Structured Design (SD)
+• Editors, Compilers and Debuggers
+• Code Generators
+• Documentation Generators
+• Project Management
+• Scheduling and Tracking 
+• Upper-CASE
+• Tools to support the early process activities of requirements and design
+• Lower-CASE
+• Tools to support later activities such as programming, debugging and testing
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+CASE Tools: Examples
+• ORACLE Designer
+• Design and generate an information system
+
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+CASE Tools: Examples
+• Microsoft Visio
+• Diagramming
+
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+CASE Tools: Examples
+• IBM Rational ClearCase
+• Revision control of source code and SD assets
+
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Management
+
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Project Management
+• Cost estimation
+• Budget
+• Time
+• Staffing
+• Quality assurance
+• Measurement and metrics
+• Process improvement
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Software Engineering Process
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+A Generic View of SE
+• Engineering is analysis, design, construction, 
+verification, and management of technical (or 
+social) entities.
+• Entity 
+ computer software
+• A software engineering process must be defined: 
+• Definition phase
+• Development phase
+• Support phase
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Software Engineering Phases
+Definition
+Phase
+Support
+Phase
+Development
+Phase
+What?
+•What information is to be processed?
+•What function and performance are desired?
+•What system behavior can be expected?
+•Identify key requirements - Interface, design constraints, validation criteria
+How?
+•How data are to be constructed?
+•How function is to be implemented within a software architecture?
+•Procedural details, interfaces, design, programming, testing
+Change?
+•Focuses on “change” associated with error correction, adaptations, changes.
+•Correction, Adaptation, Enhancement and Prevention (Reengineering) 
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Design
+Development
+Support
+Software Engineering Process
+Requirement Definition
+System Design
+Sub-system Development
+System Integration
+System Installation
+System Decommissioning
+System Evolution
+
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+SE Phases Example
+• Product life cycle 
+from Cogzinant 
+Technology Solution 
+(http://www.cognizant.com/i
+ndustries/telecom/telecom_s
+v.htm)
+
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+SE Phases Example
+•Product life cycle 
+from Diyatech
+(http://www.diyatech.com/
+devmetho.htm)
+
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Software Engineering Challenges
+• How do we ensure the quality of software we 
+produce?
+• How do we meet growing demand and still 
+maintain budget control?
+• How do we upgrade aging software?
+• How do we avoid disastrous time delay?
+• How do we successfully institute new software 
+technologies?
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Software Challenge
+
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Software Challenge
+
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Related activities
+▪ Activity 2
+▪ Project information sheets
+▪ Group sign-up
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Summary
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Summary
+• Software engineering is an engineering 
+discipline concerned with all aspects related 
+to software development.
+• Software life cycle
+• Definition
+• Development
+• Support
+261361
+Software Processes
+261361
+Outline
+▪ Software Process and Models
+▪ Software Engineering Process Activities
+▪ Agile software development
+▪ Software process simulation
+▪ The following slides are based on Chapter 2 and Chapter 3 of Sommerville’s Software 
+Engineering book, 10th edition.
+261361
+Software Process
+▪ A process consists of activities.
+▪ Software processes involves feasibilty study, 
+specification(requirements definition), 
+software design, coding and testing 
+(validation and verification) and evolution.
+▪ To describe a process, one may include:
+▪ Process activites
+▪ Artifacts or Products
+▪ Roles or Responsibilities
+261361
+Types of Software Processes
+▪ Plan-driven processes 
+▪ All activities are planned prior to commencing. 
+▪ Agile processes
+▪ The plan will be refined and enhanced to 
+accommodate requirements’ changes. 
+▪ In real world, plan-driven and agile methods 
+are exercised together to make processes 
+more practical.
+261361
+Process/Model/Methodology
+▪ Process
+▪ Activities, actions and tasks performed to create work 
+products.
+▪ Model
+▪ An abstract representation of the software process”.
+▪ Methodology
+▪ Specification of how to do each step.
+▪ Plan-driven models
+▪ E.g. Waterfall model, Spiral model
+▪ Agile methodologies
+▪ E.g. Extreme programming, Scrum
+261361
+Models/Methodologies
+▪ Waterfall model
+▪ Iterative model
+▪ V model
+▪ Spiral model
+▪ Extreme programming
+▪ Incremental Model
+▪ Rapid prototyping model
+▪ Adaptive Software 
+Development (ASD)
+▪ Crystal Methodologies
+▪ Dynamic System 
+Development Method 
+(DSDM)
+▪ Feature Driven 
+Development (FDD)
+▪ Rational Unified Process 
+(RUP)
+▪ SCRUM
+Bhuvaneswari, T., & Prabaharan, S. (2013). A survey on software 
+development life cycle models. International Journal of Computer Science 
+and Mobile Computing , 2(5), 262-267.
+261361
+Choices of Methodologies
+Vijayasarathy, L. R., & Butler, C. W. (2015). Choice of software development methodologies: Do organizational, project, and t eam characteristics 
+matter?. IEEE software, 33(5), 86-94.
+261361
+Teams and Team Size
+▪ Teams/Project
+▪ 1
+▪ 2-3
+▪ >= 4
+▪ Team size
+▪ Small
+▪ Medium
+▪ Large
+Vijayasarathy, L. R., & Butler, C. W. (2015). Choice of software development methodologies: Do organizational, project, and t eam characteristics 
+matter?. IEEE software, 33(5), 86-94.
+261361
+▪ s
+Vijayasarathy, L. R., & Butler, C. W. (2015). Choice of software development methodologies: Do organizational, project, and t eam characteristics 
+matter?. IEEE software, 33(5), 86-94.
+
+261361
+Traditional Software Process
+▪ Waterfall model
+▪ Evolutionary model
+▪ Incremental model
+▪ Spiral model
+261361
+Waterfall Model
+Requirement
+Description
+Specification and 
+Design Documents
+Software
+Components
+Product
+Requirement 
+Definition
+System and 
+Software Design
+Implementation and
+Unit Testing
+Integration and
+System Testing
+Operation and
+Maintenance
+261361
+Waterfall Model: Facts
+▪ Ideally, the phase must be finished before 
+proceeding to the next phase. 
+▪ Changing in customer requirements can lead 
+to unwanted outcomes. Therefore, 
+requirements of software must be well-
+understood with limited changes for this 
+model.
+▪ Fact: Few business systems have stable 
+requirements.
+261361
+Waterfall Model: When to Use
+▪ The Waterfall model is suitable for large 
+systems engineering projects.
+▪ A system may be developed at several sites.
+▪ The plan-driven model helps coordinate the 
+work. 
+▪ Review yourself (1) : What are favorite and unfavorite factors 
+of the Waterfall model?  Why are they so?
+261361
+Increment 4
+Increment 3
+Increment 2
+Increment 1
+Incremental Model
+Analysis Design Code Test Delivery of
+1st Increment
+Analysis Design Code Test Delivery of
+2nd Increment
+Analysis Design Code Test Delivery of
+3rd Increment
+Analysis Design Code Test Delivery of
+4th Increment
+Calendar Time
+261361
+Incremental Model: Examples
+• 2. Incremental development —terminology and guidelines, Even -André Karlsson, 2000
+261361
+Incremental Development
+▪ The project with a greater number of 
+increments has more opportunities for 
+feedback2 and accommodating changing 
+customer requirements. However, requires 
+better planning and coordination2.
+▪ Because of smaller increments, the amount of 
+work, i.e., analysis and documentation, is 
+much less when compared to the waterfall 
+model.
+261361
+Improvement
+▪ Previous release provides feedback for the next 2.
+▪ Feedbacks come from customer’s comment on 
+demonstrations of the software2. 
+▪ This model results in more rapid delivery and 
+deployment of software.
+▪ Organizations such as Microsoft and HP applied 
+incremental model to their software projects. HP and 
+Microsoft applied ID with good results 2. 
+▪ Review yourself (2) : Incremental model is said to be an 
+improvement to Waterfall. Describe the improvement.
+261361
+ID at Microsoft
+▪ A substantial planning (3-12 mths) is followed by stabilization 
+(debugging and integration)
+▪ Increments are sequential at the top level.
+▪ At lower level, increments are overlapped. Each developers 
+code and integrate everyday with a buddy tester.
+▪ Upfront planning is vital
+
+261361
+Microsoft’s Synch & Stabilization2
+▪ 12 or 24 months cycle
+
+261361
+Conventional Waterfall Process2
+▪ A
+
+261361
+Synch & Stabilization’s Milestone Breakdowns2
+
+261361
+Intermediate
+Version
+Intermediate
+Version
+Intermediate
+Version
+Evolutionary Model
+Specification
+Outline
+Description Development
+Validation
+Concurrent Activities
+Initial
+Version
+Intermediate
+Version
+Final
+Version
+261361
+Spiral Model
+http://www.fusioninfotech.co
+m/methodology.html
+
+261361
+Agile Software Development
+▪ “Rapid development and delivery is now often 
+the most important requirement for software 
+systems” – Sommerville, Software Engineering
+▪ Fast changing requirement
+▪ Unclear and unknown requirements
+▪ Agile methods were emerged in the late 
+1990s to reduce the delivery time for software 
+releases.
+261361
+Plan-Driven & Agile
+
+261361
+Agile Methodologies
+▪ Extreme programming (XP)
+▪ Scrum
+▪ Feature-Driven Development (FDD)
+▪ Agile Unified Process (AUP)
+261361
+Extreme Programming
+
+261361
+XP Issues
+•Lowers the cost of changes by embracing new 
+requirements, and perform most of the design 
+activity incrementally and on the fly.
+•Pair programming may be difficult for some 
+practitioners. 
+•There is no up-front “detailed design”, which 
+could result in more redesign effort in the 
+long run. 
+261361
+Scrum
+
+261361
+Scrum issues
+•Improvement in team productivity, work 
+prioritization, utilization of sprint, daily 
+measured progress and communications.
+•However, Scrum relies on the master to 
+facilitate the team. Internal power struggles 
+may paralyze the team.
+261361
+Software Development
+261361
+Software Process Activities
+Definition
+Phase
+Support
+Phase
+Development
+Phase
+261361
+Definition Phase
+261361
+Software Process Activities
+Definition
+Phase
+Support
+Phase
+Development
+Phase
+▪ Requirements definition
+▪ Negotiation
+▪ Functional specification 
+▪ System design
+261361
+The Requirements Engineering Process
+Feasibility
+Study
+Requirements
+Elicitation and 
+Analysis Requirement
+s
+Specification Requirement
+s
+Validation
+Feasibility
+Report
+System
+Model
+User and System
+Requirements
+Requirements
+Document
+261361
+Requirement Definition (IEEE)
+1. Introduction
+2. Overall description
+3. External interface requirements
+4. System features
+5. Other nonfunctional requirements
+6. Other requirements
+261361
+Requirement Definition (Contd.)
+1. Introduction
+▪ Purpose
+▪ Document conventions
+▪ Intended audience
+▪ Additional information
+▪ Contact information
+▪ References 
+261361
+Requirement Definition (Contd.)
+2. Overall Description
+▪ Product perspective
+▪ Product functions
+▪ User classes and characteristics
+▪ Operating environment
+▪ User environment
+▪ Design/implementation constraints
+▪ Assumptions and dependencies
+261361
+Requirement Definition (Contd.)
+3. External Interface Requirements
+▪ User interfaces
+▪ Hardware interfaces
+▪ Software interfaces
+▪ Communication protocols and interfaces
+261361
+Requirement Definition (Contd.)
+4. System Features
+▪ System feature A
+▪ Description and priority
+▪ Action/result
+▪ Functional requirements
+▪ System feature B 
+261361
+Requirement Definition (Contd.)
+5. Other Nonfunctional Requirements
+▪ Performance requirements
+▪ Safety requirements
+▪ Security requirements
+▪ Software quality attributes
+▪ Project documentation
+▪ User documentation
+261361
+Requirement Definition (Contd.)
+6. Other Requirements
+▪ Terminology
+▪ Glossary
+▪ Definitions list
+261361
+Negotiation
+▪ Prepare, prepare, prepare
+▪ Pay attention to timing
+▪ Leave behind your ego
+▪ Ramp up your listening skills
+▪ If you don't ask, you don't get
+▪ Anticipate compromise
+▪ Offer and expect commitment
+▪ Don't absorb their problems
+▪ Stick to your principles
+▪ Close with confirmation
+Source: http://smallbusiness.yahoo.com/r-article-a-57774-m-1-sc-11-10_techniques_for_better_negotiation-i
+261361
+Design Process Activities (Sommerville)
+▪ Architectural design
+▪ Abstract specification
+▪ Interface design
+▪ Component design
+▪ Data structure design
+▪ Algorithm design
+261361
+Requirement Specification
+Requirements
+Specification
+Architectural
+Design
+Abstract
+Specification
+Interface
+Design
+Component
+Design
+Data Structure
+Design
+Algorithm
+Design
+System
+Architecture
+Software
+Specification
+Interface
+Specification
+Component
+Specification
+Data Structure
+Specification
+Algorithm
+Specification
+261361
+Functional Specification (Smith)
+▪ A functional specification is a technical 
+document that specifies the functions that a 
+system must perform
+▪ Specifications may cover the following topics:
+▪ Objectives
+▪ Features
+▪ Users
+▪ Development process
+▪ Software model
+▪ Information flow
+▪ Standards and environments
+Source: Wikipedia.org
+261361
+How to Write the Functional Specifications?
+▪ Cover everything
+▪ Use lots of tentative screenshots
+▪ Write concisely, correctly and consistently
+▪ Use the most comfortable tools and format
+▪ Proofread and review
+▪ Example
+261361
+Software Model
+
+261361
+Information Flow Diagram
+
+261361
+A General Design Process
+
+261361
+Design Activities
+▪ Architectural design
+▪ Identify the overall structure of the system, the principal 
+components, their relationships and how they are 
+distributed.
+▪ Database design
+▪ The system data structures and how these are to be 
+represented in a database. 
+▪ Interface design
+▪ The interfaces between system components. 
+▪ Component selection and design
+▪ Design how it will operate. Or select reusable components, 
+รf available. 
+261361
+Development Phase
+261361
+Software Process Activities
+Definition
+Phase
+Support
+Phase
+Development
+Phase
+▪ Sub-system development
+▪ System integration
+▪ System testing
+▪ System validation and verification
+▪ System installation
+261361
+Programming and Debugging
+▪ Translating a design into a program and 
+removing errors from that program
+▪ Programming is a personal activity - there is 
+no generic programming process
+▪ Programmers carry out some program testing 
+to discover faults in the program and remove 
+these faults in the debugging process
+261361
+The Debugging Process
+Locate
+Error
+Design 
+Error Repair
+Repair
+Error
+Re-Test
+Program
+261361
+Software Testing
+▪ Verification and validation (V & V) is intended to show that a 
+system conforms to its specification and meets the 
+requirements of the system customer
+▪ Verification: ensures the product is designed to deliver all 
+functionality to the customer
+▪ Validation: ensures that functionality, as defined in requirements, is 
+the intended behavior of the product
+▪ Involves checking and review processes and system testing
+▪ System testing involves executing the system with test cases 
+that are derived from the specification of the real data to be 
+processed by the system
+261361
+Testing Stages
+▪ Component or unit testing
+▪ Individual components are tested independently
+▪ Components may be functions or objects or coherent 
+groupings of these entities
+▪ System testing
+▪ Testing of the system as a whole. Testing of emergent 
+properties is particularly important.
+▪ Acceptance testing
+▪ Testing with customer data to check that the system 
+meets the customer’s needs
+261361
+The Testing Process
+Component
+Testing
+System
+Testing
+Acceptance
+Testing
+261361
+Testing Phases
+Requirements
+Specification
+Acceptance
+Test Plan
+System
+Specification
+System
+Design
+Detailed
+Design
+Acceptance
+Test
+System
+Integration 
+Test
+Sub-System
+Integration 
+Test
+System
+Integration
+Test Plan
+Sub-System
+Integration
+Test Plan
+Module and
+Unit Code
+and Test
+Service
+261361
+Support Phase
+261361
+Software Process Activities
+Definition
+Phase
+Support
+Phase
+▪ System evolution
+▪ System decommissioning
+▪ Training
+▪ Documentation
+▪ Support
+Development
+Phase
+261361
+Supporting and Specification
+▪ Should supporting activities be included in 
+specification documents?
+261361
+Software Evolution
+▪ Software is inherently flexible and can change 
+▪ As requirements change through changing business 
+circumstances, the software that supports the 
+business must also evolve and change
+▪ Although there has been a demarcation between 
+development and evolution (maintenance) this is 
+increasingly irrelevant as fewer and fewer systems 
+are completely new
+261361
+System Evolution
+Define System
+Requirements
+Access Existing
+Systems
+Propose 
+System
+Changes
+Modify
+Systems
+Existing
+Systems
+New
+System
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Requirements Engineering
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Course Objective
+▪ Students understand requirements
+engineering process and are able to apply the 
+process to create a requirements document.
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Course Info
+▪ Course description
+▪ Basics of software engineering
+▪ Software development processes
+▪ Requirements engineering
+▪ Software design
+▪ Software construction and software testing
+▪ Software operation maintenance
+▪ Software quality
+▪ Advanced topics
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Recap: Software Processes
+▪ A process to define, implement and support 
+software.
+▪ Generally classified into two types
+▪ Plan-driven processes 
+▪ Agile processes
+▪ There are no right or wrong software processes. Only 
+what works to deliver the expected results.
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Overview
+▪ Requirements
+▪ Processes
+▪ Activities
+▪ Elicitation
+▪ Specification
+▪ Validation
+▪ Management
+** The contents presented in this slide are adapted from Ian 
+Sommerville’s Software Engineering book.
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Requirements Engineering
+▪ Requirements originate from problems.
+▪ The main purpose is to develop clear 
+understanding of the software requirements.
+▪ Why doing it?
+▪ Customers/end users do not always know what is 
+required. They do have not a good understanding 
+of features and functions needed.
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Requirements and Engineering
+▪ What is it?
+▪ Who does it?
+▪ Why is it important?
+▪ What are the steps?
+▪ What is the work product?
+▪ How to ensure it was done right?
+-- Pressman, Software Engineering
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Requirements Engineering
+▪ Tasks and techniques that lead to understanding 
+of the requirements.
+▪ Major software engineering activities to 
+communicate and model the requirements to 
+meet user needs.
+▪ Establish a solid base for design and construction.
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Requirements
+▪ States WHAT not HOW
+▪ Service, function, feature, conditions, constraints, 
+capabilities business rules representing user 
+needs or system requirements in the following 
+forms.
+▪ High-level abstract
+▪ Detailed mathematical functional specification
+▪ Function of requirements
+▪ Used for a contract, either to bid or to be used.
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Example: Requirements
+▪ Which is a requirement?
+▪ A comfortable place to sit, or
+▪ An engine, or
+▪ A steering wheel
+▪ A maintainable steering capability
+▪ Referenced from Agilebusiness.org, The DSDM Agile Project Framework  -
+HANDBOOK - Requirements and User Stories, retrieved from 
+https://www.agilebusiness.org/content/requirements-and-user-stories
+▪ DSDM: Dynamic Systems Development Method
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Example: Requirements
+▪ “The Mentcare system shall generate monthly 
+management reports showing the cost of drugs 
+prescribed by each clinic during that month.”
+▪ User requirement
+▪ “A report shall be created for each clinic and shall list 
+the individual drug names, the total number of 
+prescriptions, the number of doses prescribed and 
+the total cost of the prescribed drugs.”
+▪ System requirement
+▪ See Mentcare requirements document
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Types of Requirements
+▪ User requirements
+▪ Natural language statements plus diagrams
+▪ Intended audiences are customers, end-users, 
+architects, contract managers, etc.
+▪ System requirements
+▪ Structured detailed description of system’s 
+functions/features, services and operational 
+constraints.
+▪ Audiences include end-users, technical persons on 
+customer side, developers, architects, analysts, 
+testers, etc.
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Formal Specification Language
+▪ Z notation, originally proposed in 1977 by 
+Jean-Raymond Abrial, is a formal specification 
+language used for modeling computing 
+systems. 
+▪ The purpose is to provide the clear 
+specification of computer programs.
+▪ See a glossary of Z notation.
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Z Notation
+
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Stakeholders
+▪ Individual or Organization
+▪ Owner, user or anyone directly or indirectly 
+involve with the system
+▪ Include
+▪ “End users, end user organizations, supporters, 
+developers, producers, trainers, maintainers, 
+disposers, acquirers, customers, operators, 
+supplier organizations and regulatory bodies.”
+▪ Referenced from SEBOK wiki
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Example: Stakeholders
+▪ List stakeholders for CMU Marathon’s 
+Website.
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Functional vs. Non-Functional
+▪ A requirement can be functional or non-
+functional.
+▪ Functional requirements: FR
+▪ What is required
+▪ Non-Functional requirements: NFR
+▪ How well it behave
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+NFR
+▪Diagram taken from Sommerville’s SE Book
+
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Example: FR vs. NFR
+▪ The system shall provide two payment options: 
+Online bank deposit and Credit card.
+▪ Users of the Mentcare system shall authenticate 
+themselves using their health authority identity card.
+▪ A user shall be able to search the appointments lists 
+for all clinics.
+▪ The system shall implement patient privacy 
+provisions as set out in HStan-03-2006-priv. 
+▪ The system shall generate each day, for each clinic, a 
+list of patients who are expected to attend 
+appointments that day. 
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Example: FR vs. NFR (Contd.)
+▪ A message indicating successful payment must be 
+issued within 5 seconds after submitting the 
+payment.
+▪ Each staff member using the system shall be uniquely 
+identified by his or her 8-digit employee number.
+▪ The payment system must be available 24 hours per 
+day, everyday.
+▪ The Mentcare system shall be available to all clinics 
+during normal working hours (Mon–Fri, 0830–17.30). 
+Downtime within normal working hours shall not 
+exceed five seconds in any one day.
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Metrics for Specifying NFR
+▪ Speed
+▪ Processed transactions/second
+▪ User/event response time
+▪ Screen refresh time
+▪ Size
+▪ Mbytes
+▪ Number of ROM chips
+▪ Ease of use
+▪ Training time
+▪ Number of help frames
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Metrics for Specifying NFR
+▪ Reliability
+▪ Mean time to failure
+▪ Probability of unavailability
+▪ Rate of failure occurrence
+▪ Availability
+▪ Robustness
+▪ Time to restart after failure
+▪ Percentage of events causing failure
+▪ Probability of data corruption on failure
+▪ Portability
+▪ Percentage of target dependent statements
+▪ Number of target systems
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Other Types of Requirements
+▪ Architecture
+▪ Business
+▪ User
+▪ Function
+▪ Quality of Service
+▪ Implementation
+▪ Referenced from Wikipedia.org, Requirement, retrieved from 
+https://en.wikipedia.org/wiki/Requirement
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Characteristics of Requirements
+▪ Unambiguous
+▪ Cohesive
+▪ Complete
+▪ Consistent
+▪ Verifiable (testable)
+▪ Traceable
+▪ Feasible
+▪ Examples can be found from 
+http://www.informit.com/articles/article.aspx?p=1152528&seqNum=4
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Requirements and Agile Methods
+▪ Why Incremental requirements engineering?
+▪ Requirements
+▪ User stories
+▪ Backlog
+▪ Terminology
+▪ Theme –Main features
+▪ Epic –Major components / contain stories
+▪ Story –Smaller  work / task / Building blocks
+▪ Version –Software release
+▪ Sprint –Iteration 
+▪ Referenced from 
+▪ Atlassian Agile Coach, “Epics, Stories, Versions, and Sprint”, retrieved from https://www.atlassian.com/agile/project-management/epics-stories-themes
+▪ Craft Blog, “How to write epic user stories”, retrieved from https://blog.craft.io/2017/04/23/writing-epic-user-stories/
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Requirements and Agile Methods
+▪ Why Incremental requirements engineering?
+▪ Requirements
+▪ User stories
+▪ Backlog
+▪ Terminology
+▪ Theme –Main features
+▪ Epic –Major components / contain stories
+▪ Story –Smaller  work / task / Building blocks
+▪ Version –Software release
+▪ Sprint –Iteration 
+▪ Referenced from 
+▪ Atlassian Agile Coach, “Epics, Stories, Versions, and Sprint”, retrieved from https://www.atlassian.com/agile/project-management/epics-stories-themes
+▪ Craft Blog, “How to write epic user stories”, retrieved from https://blog.craft.io/2017/04/23/writing-epic-user-stories/
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Example: Agile Requirements
+▪ Theme
+▪ Buying process
+▪ Epic
+▪ Checkout
+▪ Shopping cart
+▪ User story
+▪ As an online shopper, I want to pay using my 
+PayPal, so I don’t have to enter my credit card 
+number.
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+A User Story
+▪ A requirements written from a goal of end-user. 
+▪ Format
+▪ As a <stakeholder type>
+▪ I want <feature>
+▪ So that <some business value / reason>
+▪ Example
+▪ As a runner,
+▪ I want to register and pay online.
+▪ So that I can reserve my place at once without having to go 
+to different places in order to register, pay and complete 
+the registration process.
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+User Story (contd.)
+▪ Information
+▪ Primary stakeholder 
+▪ Effect of the story on the stakeholder
+▪ Business value to the stakeholder derived from 
+the effect
+▪ Acceptance criteria (for testing)
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Version
+▪ Specified by Product owner
+▪ Delivered at the end of each iteration
+▪ Example
+▪ Version 1: login, logout, profile
+▪ Version 2: View and print order documents
+▪ Version 3: Inventory
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Product Backlog
+▪ A wish list
+▪ A scope of final product
+▪ A list of prioritized features that can grow over 
+a series of sprint.
+▪ The product owner gives the team the list at 
+the sprint planning meeting.
+▪ The team expands each product backlog into 
+sprint backlog tasks.
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Product Backlog vs. Sprint Backlog
+▪ (Referenced from aha.io)
+
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Product Backlog: Example
+▪ (Referenced from masterofproject.com)
+
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Sprint Backlog
+▪ Sprint backlog
+▪ List of tasks, commonly maintained as a spreadsheet, 
+necessary to complete each user story along with estimation 
+(how many hours)
+▪ A number of product backlog items (user stories) is selected 
+foff the top of product backlog during the sprint planning 
+meeting
+▪ Referenced from Mountain Goat Software, “Sprint Backlog”, retrieved from https://www.mountaingoatsoftware.com/agile/scrum/scrum-tools/sprint-backlog
+
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Sprint Backlog
+▪ Sprint backlog
+▪ Created by and for developers. 
+▪ Highly visible, real-time picture of the work during the Sprint 
+in order to achieve the Sprint Goal. 
+▪ Updated through
+-out the Sprint.
+▪ Should contain 
+enough detail 
+for progress 
+inspection 
+during daily 
+scrum. 
+(scrum.org)
+
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Sprint Backlog: An Example
+▪ (Referenced from slidetodoc.com)
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Product Backlog vs. Sprint Backlog
+▪ Product Backlog
+▪ A list of prioritized and estimated features in form 
+of user stories
+▪ Sprint Backlog
+▪ A list of tasks decomposed tasks from user stories 
+to be completed during the sprint
+▪ Time estimate for each task
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Burndown Chart
+▪ What can you see from this chart?
+
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Requirements Engineering Process
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Tasks and Activities
+▪ Inception (Feasibility study/ Proposal)
+▪ Elicitation (,Elaboration/refine) and Analysis
+▪ Negotiation
+▪ Specification
+▪ Validation
+▪ Management
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Requirements Elicitation & Analysis
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Elicitation and Analysis
+▪ Involves requirements gathering and requirements 
+collection
+▪ Staff works with stakeholders (end-users, managers, 
+engineers, etc.) to discover system services, 
+performance, hardware/software constrains, etc.
+▪ Stages include:
+▪ Discovery
+▪ Classification and organization
+▪ Prioritization and negotation
+▪ Specification
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+RE: Practices and Problems
+▪ Wagner and colleges (2018) surveyed Agile 
+projects for RE practices and problems in 
+North America, South America and Europe 
+over 92 organizations. The followings were 
+studied.
+▪ Elicitation and specification
+▪ Change and alignment with test
+▪ Improvement
+▪ Common problems
+▪ Fernández, Daniel Méndez, et al. "On Evidence-based Risk Management in Requirements 
+Engineering." International Conference on Software Quality. Springer, Cham, 2018.
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Survey: Elicitation Techniques and Documentation
+▪ Elicitation
+▪ Most frequently used techniques
+▪ Interview
+▪ Prototyping
+▪ Facilitated meeting (workshop)
+▪ Scenarios
+▪ Observation
+▪ Documentation
+▪ Business process model/Data model
+▪ Structured requirements list
+▪ Use case model
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Survey: Changes in Requirements
+▪ More than 50% update requirements 
+document/backlog
+▪ 15% regularly change the requirements specification
+▪ Although, the majority go with impact analysis 
+between requirements to analyze the effect of 
+changes, and also on the code, one-fifth did not 
+manage changes.  
+▪ Requirements are used to define acceptance criteria 
+for testing.
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Survey: Common Problems in Agile RE
+▪ Requirements are too abstract and ambiguous
+▪ Unclear/unmeasurable NFR
+▪ Communication within team and between dev 
+and customer
+▪ Changing business processes and or 
+requirements
+▪ Incomplete/hidden requirements
+▪ Inconsistent requirements
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Survey: Common Problems in Agile RE
+▪ Missing traceability
+▪ Not enough access to business information
+▪ Weak knowledge of application domain
+▪ Not enough time
+▪ Incompatibility between innovation and need 
+for formal acceptance of requirements
+▪ Technically unfeasible requirements
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Elicitation and Analysis Process
+▪ Discovery
+▪ Classification and organization
+▪ Prioritization and negotiation
+▪ Specification
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Requirements Discovery
+▪ Gathering information about the system from 
+a range of stakeholders and extract 
+requirements from this information
+▪ Techniques
+▪ Interview –overall understanding
+▪ Closed interview
+▪ Opened interview
+▪ Mix
+▪ Ethnography –understand existing process
+▪ Observation how people work
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Requirements Discovery Technique
+▪ Stories and Scenarios 
+▪ Real life examples of how users use a system
+▪ Usually include:
+▪ Starting situation
+▪ Normal flow of events
+▪ What can go wrong
+▪ Concurrent activities
+▪ Finishing state
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Requirements Specification
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Requirements Specification
+▪ Process of creating a requirements document
+▪ Have to be readable by non-technical 
+background persons
+▪ How to write:
+▪ Natural language
+▪ Structured natural language (i.e. Template)
+▪ Design description languages (i.e. Pseudocode)
+▪ Graphical notations (i.e. UML)
+▪ Mathematical specifications (i.e. FSM)
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Requirements and Design
+▪ They are inseparable and do overlap
+▪ Requirements ➔WHAT
+▪ Design  ➔HOW
+▪ Think of the situations where overlapping 
+occurs.
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Example: Natural Language
+▪ This example is taken from Sommerville’s SE Book
+
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Example: Structured NL
+▪ This example is taken from Sommerville’s SE Book
+
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Example: Tabular Specification
+▪ This example is taken from Sommerville’s SE Book
+
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Example: Use Case
+▪ This example is taken from Sommerville’s SE Book
+
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Software Requirements Specification
+▪ An official statement of system services
+▪ Include both user requirements and system 
+requirements
+▪ Intended audiences include:
+▪ System customers
+▪ Managers
+▪ System engineers
+▪ System test engineers
+▪ System maintenance engineers
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Requirements Specification
+▪ IEEE 830-1998
+▪ Recommended practices for SRS
+▪ Considerations
+▪ Functionality
+▪ External interfaces
+▪ Performance
+▪ Attributes
+▪ Design constraints
+▪ Avoid placing design or project requirements 
+into SRS
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+SRS Contents
+1. Introduction
+1.1 Purpose
+▪ Purpose and Intended audience of SRS
+1.2 Scope 
+▪ Identify product names (e.g. Report generator)
+▪ What will product(s) do and not do
+▪ Describe application, benefits, objectives and goals of 
+software
+1.3 Definitions, acronyms, abbreviation
+1.4 References
+1.5 Overview of SRS
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+SRS Contents
+2. Overall Description
+2.1 Product perspective
+2.2 Product functions
+2.3 User classes and characteristics
+2.4 Design/implementation constraints
+2.5 Assumptions and dependencies
+2.6 Apportioning of requirements
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+SRS Contents
+3. Specific requirements
+▪ Identify requirements that may be delayed to 
+the future version.
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+SRS Contents
+4. System Features
+▪ System feature A
+▪ Description and priority
+▪ Action/result
+▪ Functional requirements
+▪ System feature B 
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+SRS Contents
+5. Other Nonfunctional Requirements
+▪ Performance requirements
+▪ Safety requirements
+▪ Security requirements
+▪ Software quality attributes
+▪ Project documentation
+▪ User documentation
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+SRS Contents
+6. Other Requirements
+▪ Terminology
+▪ Glossary
+▪ Definitions list
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Requirements Validation
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Requirements Validation
+▪ Checking whether the requirements align with 
+what the customers need.
+▪ Cost of fixing a requirement error is a lot 
+higher than fixing an implementation error
+▪ What to check:
+▪ Validity
+▪ Consistency
+▪ Completeness
+▪ Realism
+▪ Verificability
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Validation Techniques
+▪ Requirements Reviews
+▪ Manual analysis
+▪ Prototyping
+▪ Executable system model
+▪ Test-case generation
+▪ Developing tests for requirements
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Requirements Review
+▪ Regular reviews should be held with client and 
+staff attending the reviews.
+▪ Perform while creating the requirements 
+definition
+▪ Formal reviews
+▪ Complete documents
+▪ Informal reviews
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Review Checks
+▪ Verifiability
+▪ Testable?
+▪ Comprehensibility
+▪ Understood?
+▪ Traceability
+▪ Clearly stated?
+▪ Adaptability
+▪ Can be changed without a large impact?
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Practices in Requirements Review
+▪ Few tools available for validation of 
+requirements
+▪ Done through review meeting such as Sprint 
+review in Scrum at the end of the Sprint
+▪ In Scrum, customers and team together check 
+requirements against organizational standards 
+and knowledge, and user requirements to to 
+find conflicts and errors.
+▪ Mokhtar, Siti Osnita, et al. "Issues and Challenges of Requirements Review in the Industry." Indian Journal 
+of Science and Technology 10.3 (2017).
+▪ Darwish, Nagy Ramadan, and Salwa Megahed. "Requirements Engineering in Scrum 
+Framework." Requirements Engineering 149.8 (2016): 24-29.
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Requirements Management
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Requirements Management
+▪ A process to manage changes in requirements 
+throughout development
+▪ Record of individual requirements and their 
+changes to study impact of requirements  
+changes.
+▪ A formal process for making change proposals 
+is needed
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Requirements Management Activities
+▪ Uniquely identify requirements
+▪ Establish a change management process
+▪ Define traceability policy
+▪ Acquire supporting tools
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Managing Requirements Change
+▪ Analyze problem from the change proposal 
+and specify change
+▪ Analyze the effect of the change using 
+traceability information and system 
+knowledge to determine cost
+▪ Modify requirements document, and / or 
+system design and implementation
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Activity
+▪ Each group elicits additional requirements 
+from the software prototype used in class 
+today. 
+▪ Write the requirement sentences for the
+system and group them into appropriate 
+categories.
+▪ Write them on Mango.
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Summary
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+Summary
+▪ Requirements define WHAT while designs define 
+HOW
+▪ FR and NFR have to be identified and documented
+▪ Requirements engineering is an iterative process
+▪ Requirements engineering (RE) process consists of 
+different activities: Elicitation and Analysis, 
+Specification, Validation and Management
+▪ A range of techniques such as interview, 
+ethnography, stories and scenarios can be used to 
+elicit discussion and requirements.
+261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY261361 - SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIANG MAI UNIVERSITY
+End of Lecture Questions
+1. What is the difference between FR and NFR?
+2. What are characteristics of good 
+requirements?
+3. Give an example of a user story for software 
+from your course project.
+4. What are the main activities in a 
+Requirements Engineering (RE) process? 
+5. Why is RE important?
+261361 Software Engineering – Department of Computer Engineering. Faculty of Engineering. CMU
+Modeling and Design
+261361 Software Engineering – Department of Computer Engineering. Faculty of Engineering. CMU
+Class Review
+▪ Software specification is the process of determining 
+system services, its operation constraints and the 
+development constraints. The process is called 
+Requirement Engineering (RE). 
+▪ RE consists of four activities: Requirements 
+elicitation and analysis, Requirements specification, 
+Requirements validation and Requirement 
+management.
+▪ Main types of requirements include user and system 
+requirements, and functional and non-functional 
+requirements.
+261361 Software Engineering – Department of Computer Engineering. Faculty of Engineering. CMU
+Modeling
+▪ In Requirements Engineering, modeling of the 
+existing system are created to guide the 
+requirements for the new system.
+▪ The models of the new system are also 
+created. Stakeholders see the models as the 
+proposal of the new system. Engineers use it 
+to discuss design proposals. 
+261361 Software Engineering – Department of Computer Engineering. Faculty of Engineering. CMU
+Design
+▪ The design process begins with architectural 
+design to identify the sub-systems and the 
+framework for sub-system control and 
+communication.
+▪ The output of this design process is a 
+description of the software architecture.
+261361 Software Engineering – Department of Computer Engineering. Faculty of Engineering. CMU
+Modeling and Design
+▪ In real life, Requirements Engineering may be 
+overlapped with Designing.
+▪ Agile Modeling (AM), a supplement to other 
+Agile development methodologies, is “a 
+practice-based methodology for effective 
+modeling and documentation of software-
+based systems” – Simplilearn.com, Wikipedia.org
+261361 Software Engineering – Department of Computer Engineering. Faculty of Engineering. CMU
+Agile Statistics as per 2023
+▪ Research Summary – Zippia.com
+▪ Agile are increasingly used for software management in 
+many companies. 
+▪ “At least 71% of U.S. companies are now using 
+Agile.”
+▪ Agile projects have a 64% success rate, whereas 
+waterfall only have a 49%. So, Agile is nearly 1.5X 
+more successful.
+▪ Scrum is considered the most popular Agile 
+framework. 61% of respondents (76 countries) 
+reported that they use it.
+261361 Software Engineering – Department of Computer Engineering. Faculty of Engineering. CMU
+Agile Statistics as per 2023
+
+261361 Software Engineering – Department of Computer Engineering. Faculty of Engineering. CMU
+Agile Statistics as per 2023
+
+261361 Software Engineering – Department of Computer Engineering. Faculty of Engineering. CMU
+AM: Core practices
+▪ Document continuously throughout the life-cycle.
+▪ Document as late as possible.
+▪ Executable specifications in the form of 
+executable "customer tests", instead of "static" 
+documentation.
+▪ Single-source information (models, 
+documentation, software) is stored in one place 
+only for "correctness" of versions / information.
+261361 Software Engineering – Department of Computer Engineering. Faculty of Engineering. CMU
+Modeling
+261361 Software Engineering – Department of Computer Engineering. Faculty of Engineering. CMU
+Modeling
+▪ Modeling is a mean of representing a system using 
+some kind of graphical notation such as the Unified 
+Modeling Language (UML). 
+▪ Modelling helps clarify the functionality of the 
+system and ,therefore, is used to communicate with 
+customers.
+▪ Types of Models:
+▪ Context models
+▪ Interaction models
+▪ Structural models
+▪ Behavioral models
+261361 Software Engineering – Department of Computer Engineering. Faculty of Engineering. CMU
+Models
+▪ Context models
+▪ Illustrate system boundaries or the operational 
+context of a system or scope.
+▪ Interaction models:
+▪ User interaction model helps identifying user 
+requirements.
+▪ Systems interaction model highlights 
+communication issues.
+▪ Component interaction model helps in 
+understanding a system architecture.
+261361 Software Engineering – Department of Computer Engineering. Faculty of Engineering. CMU
+Context Model: MHC PMS 
+▪ Mental Healthcare Patient Management 
+System
+
+261361 Software Engineering – Department of Computer Engineering. Faculty of Engineering. CMU
+Models
+▪ Structural models
+▪ When designing the system architecture, use structureal 
+models to display the organization of a system in terms of 
+the components and their relationships.
+▪ Behavioral models
+▪ Display the dynamic behavior of a system in execution by 
+showing what happens and how a system responses to a 
+stimulus.
+▪ Use case diagrams and Sequence diagrams may be 
+used.
+261361 Software Engineering – Department of Computer Engineering. Faculty of Engineering. CMU
+Unified Modelling Language (UML)
+
+261361 Software Engineering – Department of Computer Engineering. Faculty of Engineering. CMU
+Unified Modelling Language (UML)
+▪ UML (Unified Modeling Language) is a 
+standardized general-purpose modeling 
+language in the field of software engineering
+▪ Developed by Object Management Group 
+(OMG)
+▪ UML 2.5 has 14 types of diagrams divided into 
+three categories. 
+▪ The latest version is 2.5.1.
+261361 Software Engineering – Department of Computer Engineering. Faculty of Engineering. CMU
+14 UML Diagrams
+▪ Structure Diagrams
+▪ Class Diagram
+▪ Component Diagram
+▪ Composite Structure Diagram
+▪ Deployment Diagram
+▪ Object Diagram
+▪ Package Diagram
+▪ Profile Diagram*
+▪ Behavior Diagrams
+▪ Activity Diagram
+▪ State Machine Diagram
+▪ Use Case Diagram 
+▪ Interaction Diagrams
+▪ Communication Diagram
+▪ Interaction Overview Diagram
+▪ Sequence Diagram
+▪ Timing Diagram
+(Source: Wikipedia)
+261361 Software Engineering – Department of Computer Engineering. Faculty of Engineering. CMU
+14 UML Diagrams (Contd.)
+
+261361 Software Engineering – Department of Computer Engineering. Faculty of Engineering. CMU
+Structure Diagrams
+▪ Emphasizes the static structure of the system
+using objects, attributes, operations and 
+relationships
+261361 Software Engineering – Department of Computer Engineering. Faculty of Engineering. CMU
+Structure Diagrams: Class Diagram
+▪ Shows the system’s classes, their attributes, 
+and the relationships among the classes
+▪ Application: General OO programming
+NAME
+Attribute
+Operation
+Class
+Generalize 
+Relationship
+Realize Relationship
+<<interface>>
+NAME
+Operation
+Interface
+NAME
+Container
+Package
+261361 Software Engineering – Department of Computer Engineering. Faculty of Engineering. CMU
+Structure Diagrams: Class Diagram
+File:BankAccount.jpg
+
+261361 Software Engineering – Department of Computer Engineering. Faculty of Engineering. CMU
+Structure Diagrams: Class Diagram
+
+261361 Software Engineering – Department of Computer Engineering. Faculty of Engineering. CMU
+Structure Diagrams: Class Diagram
+
+261361 Software Engineering – Department of Computer Engineering. Faculty of Engineering. CMU
+Structure Diagrams: Component Diagram
+▪ Depicts how a software system is split up into 
+components 
+▪ Shows the dependencies among these components
+▪ Application: Any systems which can be modularized
+Component
+261361 Software Engineering – Department of Computer Engineering. Faculty of Engineering. CMU
+Structure Diagrams: Component Diagram
+
+261361 Software Engineering – Department of Computer Engineering. Faculty of Engineering. CMU
+Structure Diagrams: Component Diagram
+
+261361 Software Engineering – Department of Computer Engineering. Faculty of Engineering. CMU
+Structure Diagrams: Component Diagram
+
+261361 Software Engineering – Department of Computer Engineering. Faculty of Engineering. CMU
+Structure Diagrams: Composite Structure Diagram
+▪ Describes the internal structure of a class 
+▪ Describes the collaborations that this 
+structure makes possible
+▪ Application: Any systems which involves 
+modules with internal structure
+261361 Software Engineering – Department of Computer Engineering. Faculty of Engineering. CMU
+Structure Diagrams: Composite Structure Diagram
+
+261361 Software Engineering – Department of Computer Engineering. Faculty of Engineering. CMU
+Structure Diagrams: Composite Structure Diagram
+
+261361 Software Engineering – Department of Computer Engineering. Faculty of Engineering. CMU
+Structure Diagrams: Composite Structure Diagram
+
+261361 Software Engineering – Department of Computer Engineering. Faculty of Engineering. CMU
+Structure Diagrams: Deployment Diagram
+▪ Serves to model the hardware used in system 
+implementations
+▪ Describes the execution environments and 
+artifacts deployed on the hardware
+▪ Application: Hardware dependent systems
+261361 Software Engineering – Department of Computer Engineering. Faculty of Engineering. CMU
+Structure Diagrams: Deployment Diagram
+
+261361 Software Engineering – Department of Computer Engineering. Faculty of Engineering. CMU
+Structure Diagrams: Deployment Diagram
+
+261361 Software Engineering – Department of Computer Engineering. Faculty of Engineering. CMU
+Structure Diagrams: Deployment Diagram
+
+261361 Software Engineering – Department of Computer Engineering. Faculty of Engineering. CMU
+Structure Diagrams: Object Diagram
+▪ Shows a complete or partial view of the 
+structure of a modeled system at a specific 
+time
+▪ Application: A system which needs to show 
+internal data structure
+261361 Software Engineering – Department of Computer Engineering. Faculty of Engineering. CMU
+Structure Diagrams: Object Diagram
+
+261361 Software Engineering – Department of Computer Engineering. Faculty of Engineering. CMU
+Structure Diagrams: Object Diagram
+
+261361 Software Engineering – Department of Computer Engineering. Faculty of Engineering. CMU
+Structure Diagrams: Object Diagram
+
+261361 Software Engineering – Department of Computer Engineering. Faculty of Engineering. CMU
+Structure Diagrams: Package Diagram
+▪ Groups objects into packages in order to simplify the 
+system 
+▪ Shows the dependencies among these groupings
+▪ Application: A system which emphasizes on 
+functionality
+DependenciesPackage
+261361 Software Engineering – Department of Computer Engineering. Faculty of Engineering. CMU
+Structure Diagrams: Package Diagram
+File:Package import-1.png
+
+261361 Software Engineering – Department of Computer Engineering. Faculty of Engineering. CMU
+Structure Diagrams: Package Diagram
+
+261361 Software Engineering – Department of Computer Engineering. Faculty of Engineering. CMU
+Structure Diagrams: Package Diagram
+
+261361 Software Engineering – Department of Computer Engineering. Faculty of Engineering. CMU
+Structure Diagrams: Profile Diagram
+▪ A kind of package that extends a reference 
+metamodel by defining limited extensions to 
+the reference metamodel with the purpose of 
+adapting it to a specific platform or domain. 
+▪ Show custom stereotypes.
+▪ Application: A system working on different 
+platforms.
+261361 Software Engineering – Department of Computer Engineering. Faculty of Engineering. CMU
+Structure Diagrams: Profile Diagram
+▪ Image  courtesy of technologyUK.net.
+
+261361 Software Engineering – Department of Computer Engineering. Faculty of Engineering. CMU
+Behavior Diagrams
+▪ Emphasizes what must happen in the system 
+being modeled
+261361 Software Engineering – Department of Computer Engineering. Faculty of Engineering. CMU
+Behavior Diagrams: Activity Diagram
+▪ Represents the business and operational step-
+by-step workflows of components in a system
+▪ An activity diagram shows the overall flow of 
+control
+▪ Application: Flowing processes
+Initial State Final State Synchronization BarActivity State
+261361 Software Engineering – Department of Computer Engineering. Faculty of Engineering. CMU
+Behavior Diagrams: Activity Diagram
+
+261361 Software Engineering – Department of Computer Engineering. Faculty of Engineering. CMU
+Behavior Diagrams: Activity Diagram
+
+261361 Software Engineering – Department of Computer Engineering. Faculty of Engineering. CMU
+Behavior Diagrams: Activity Diagram
+
+261361 Software Engineering – Department of Computer Engineering. Faculty of Engineering. CMU
+Behavior Diagrams: State Machine Diagram
+▪ Describe various states which certain classes 
+response to certain events
+▪ It is normally used for explaining classes with 
+high complexity
+▪ Application: Flowing processes with different 
+choices of interactions
+261361 Software Engineering – Department of Computer Engineering. Faculty of Engineering. CMU
+Behavior Diagrams: State Machine Diagram
+
+261361 Software Engineering – Department of Computer Engineering. Faculty of Engineering. CMU
+Behavior Diagrams: State Machine Diagram
+
+261361 Software Engineering – Department of Computer Engineering. Faculty of Engineering. CMU
+Behavior Diagrams: State Machine Diagram
+
+261361 Software Engineering – Department of Computer Engineering. Faculty of Engineering. CMU
+Behavior Diagrams: Use Case Diagram
+▪ Describe what a system does from the 
+standpoint of an external observer
+▪ The emphasis is on what a system does rather 
+than how
+▪ Application: Determining features, 
+communicating with clients, generating test 
+cases
+261361 Software Engineering – Department of Computer Engineering. Faculty of Engineering. CMU
+Behavior Diagrams: Use Case Diagram
+
+261361 Software Engineering – Department of Computer Engineering. Faculty of Engineering. CMU
+Behavior Diagrams: Use Case Diagram
+
+261361 Software Engineering – Department of Computer Engineering. Faculty of Engineering. CMU
+Behavior Diagrams: Use Case Diagram
+
+261361 Software Engineering – Department of Computer Engineering. Faculty of Engineering. CMU
+Interaction Diagrams
+▪ A subset of behavior diagrams
+▪ Emphasize the flow of control and data 
+among the things in the system being 
+modeled
+261361 Software Engineering – Department of Computer Engineering. Faculty of Engineering. CMU
+Interaction Diagrams: Communication Diagram
+▪ Shows the message flow between objects in 
+an OO application 
+▪ Shows the basic associations (relationships) 
+between classes
+▪ Application: General systems with interactive 
+processes
+261361 Software Engineering – Department of Computer Engineering. Faculty of Engineering. CMU
+Interaction Diagrams: Communication Diagram
+
+261361 Software Engineering – Department of Computer Engineering. Faculty of Engineering. CMU
+Interaction Diagrams: Communication Diagram
+
+261361 Software Engineering – Department of Computer Engineering. Faculty of Engineering. CMU
+Interaction Diagrams: Communication Diagram
+
+261361 Software Engineering – Department of Computer Engineering. Faculty of Engineering. CMU
+Interaction Diagrams: Interaction Overview Diagram
+▪ Is an activity diagram in which overviews 
+control flows
+▪ The nodes within the diagram are framed
+▪ Application: System components with flowing 
+interactions
+261361 Software Engineering – Department of Computer Engineering. Faculty of Engineering. CMU
+Interaction Diagrams: Interaction Overview Diagram
+File:Iau-diagramm-1.png
+
+261361 Software Engineering – Department of Computer Engineering. Faculty of Engineering. CMU
+Interaction Diagrams: Interaction Overview Diagram
+
+261361 Software Engineering – Department of Computer Engineering. Faculty of Engineering. CMU
+Interaction Diagrams: Interaction Overview Diagram
+
+261361 Software Engineering – Department of Computer Engineering. Faculty of Engineering. CMU
+Interaction Diagrams: Sequence Diagram
+▪ Shows the sequence of the system, ordered 
+by objects and time
+▪ Indicates the lifespan of objects relative to 
+those messages
+▪ Application: Systems with tentative 
+sequences
+261361 Software Engineering – Department of Computer Engineering. Faculty of Engineering. CMU
+Interaction Diagrams: Sequence Diagram
+
+261361 Software Engineering – Department of Computer Engineering. Faculty of Engineering. CMU
+Interaction Diagrams: Sequence Diagram
+
+261361 Software Engineering – Department of Computer Engineering. Faculty of Engineering. CMU
+Interaction Diagrams: Sequence Diagram
+
+261361 Software Engineering – Department of Computer Engineering. Faculty of Engineering. CMU
+Interaction Diagrams: Timing Diagram
+▪ Focuses on timing constraints
+▪ Application: Processes which are time-
+oriented
+261361 Software Engineering – Department of Computer Engineering. Faculty of Engineering. CMU
+Interaction Diagrams: Timing Diagram
+
+261361 Software Engineering – Department of Computer Engineering. Faculty of Engineering. CMU
+Interaction Diagrams: Timing Diagram
+
+261361 Software Engineering – Department of Computer Engineering. Faculty of Engineering. CMU
+Interaction Diagrams: Timing Diagram
+
+261361 Software Engineering – Department of Computer Engineering. Faculty of Engineering. CMU
+Summary
+▪ Modeling is the process of representing the 
+system, mostly in graphical notations, for 
+understanding, designing and communication.
+▪ Architectural design is the process of 
+identifying sub-systems and its framework for 
+controlling and communication.
+▪ Software architecture is the output of the 
+Architectural design process.
+261361 Software Engineering – Department of Computer Engineering. Faculty of Engineering. CMU
+End of Lecture Questions
+1. What is the purpose of each model below?
+▪ context model
+▪ structure model
+▪ Behavioral model
+▪ Interaction model
+2. Which one of these should be included in a 
+software requirements specification? Why?
+▪ Use case
+▪ State machine
+▪ Sequence
+▪ Timing
+261361 Software Engineering – Department of Computer Engineering. Faculty of Engineering. CMU
+Activity
+▪ Each group project creates the following model 
+and post as a reply to the corresponding 
+activity on Mango.
+▪ A use case model
+▪ A another UML diagram your group considers 
+necessary to understand system’s requirements 
+and should accompany your SRS.
+Lecture 5: 
+Architectural Design
+CPE361 – SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIAN MAI UNIVERSITY
+Class Review
+CPE361 – SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIAN MAI UNIVERSITY
+▪ System modeling aids in representing and  
+understanding of the system.
+▪ Requirements specification may be overlapped with 
+Designing activities.
+▪ Designing starts from Architectural design which  
+involves identifying sub-systems and its framework  
+for controlling and communication.
+▪ Software architecture is the output of the  
+Architectural design process.
+What is Software Design?
+CPE361 – SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIAN MAI UNIVERSITY
+▪ Definition by ISO/IEC/IEEE 12207-2:2020(E)
+▪ Activities
+▪ UX Design (Customer Journey Map: CJM)
+▪ Architectural design specification (Software 
+Architecture Document: SAD)
+▪ Abstract specification (ASD)
+▪ Interface design specification (ISD)
+▪ Component design specification (CSD)
+▪ Data structure design specification (DSDS)
+▪ Algorithm design specification (ADS)
+Definitions
+CPE361 – SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIAN MAI UNIVERSITY
+▪ “Software design is usually concurrent with software 
+implementation, integration, verification, and validation.” – 
+12207
+▪ “The software design strategy can include initial or 
+incremental decomposition into system elements; creation of 
+various views of automated procedures, data structures and 
+control systems; selection of design patterns, or 
+progressively more detailed definition of objects and their 
+relationships.” -- 12207 
+▪ See Annex H for Application of Agile to software devesign.
+Software Architecture
+CPE361 – SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIAN MAI UNIVERSITY
+▪ Software Architecture is a high-level design of  
+an overall structure of a software system  
+showing main structural components and  
+relationships between them
+▪ Concerns with organization of a system
+▪ Often overlapped with Requirements  
+Engineering
+▪ The systems can comprise more than one  
+structure.
+Definition
+CPE361 – SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIAN MAI UNIVERSITY
+▪ As many definitions do, architecture is a set of  
+components and their connections.
+▪ Software architecture definition is much more  
+precise.
+“The software architecture of a program or computing  
+system is the structure or structures of the system,  
+which comprise software elements, the externally  
+visible properties of those elements, and the  
+relationships among them.”1
+1. Software Architecture in Practice, 2nd Edition.
+An Example
+▪ Underwater acoustic simulation
+▪ Informative or uninformative?
+▪ What can we tell from it?
+▪ What can we not tell from the diagram?
+CPE361 – SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIAN MAI UNIVERSITY
+Another Example
+▪ JavaSE Software Architecture
+▪ Image taken from https://commons.wikimedia.org/wiki/File:GDK_software_architecture.svg
+CPE361 – SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIAN MAI UNIVERSITY
+Agile and Architecture
+CPE361 – SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIAN MAI UNIVERSITY
+▪ An overall systems architecture is generally  
+designed at an early stage of agile processes.
+▪ Refactoring the system architecture is  
+impractical as it affects many components in  
+the system
+Packing Robot Control System: Architecture
+CPE361 – SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIAN MAI UNIVERSITY
+Small vs. Large Architecture
+CPE361 – SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIAN MAI UNIVERSITY
+▪ Small
+▪ Individual programs
+▪ decomposed into components.
+▪ Large
+▪ Complex enterprise systems distributed over  
+different computers, which may be owned and  
+managed by different companies.
+Architectural design decisions
+Chapter 6 Architecturaldesign 13
+CPE361 – SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIAN MAI UNIVERSITY
+▪ Is there a generic application architecture that can be used?
+▪ How will the system be distributed?
+▪ What architectural styles are appropriate?
+▪ What approach will be used to structure the system?
+▪ How will the system be decomposed into modules?
+▪ What control strategy should beused?
+▪ How will the architectural design beevaluated?
+▪ How should the architecture be documented?
+Architecture reuse
+CPE361 – SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIAN MAI UNIVERSITY
+▪ Systems in the same domain often have similar  
+architectures that reflect domain concepts.
+▪ Application product lines are built around a core  
+architecture with variants that satisfy particular  
+customer requirements.
+▪ The architecture of a system may be designed  
+around one of more architectural patterns or ‘styles’.
+▪ These capture the essence of an architecture and can be  
+instantiated in different ways.
+▪ Discussed later in this lecture.
+13Chapter 6 Architecturaldesign
+Software Architecture Views
+CPE361 – SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIAN MAI UNIVERSITY
+▪ Software architecture is commonly organized  
+in views.
+▪ 4+1 view model designed by Philippe Kruchten
+▪ Logical view (Function)
+▪ Process view (Concurrency/Thread view)
+▪ Development (Structure/Decomposition)
+▪ Physical (Deployment)
+▪ User action (Use case)
+▪ Other views
+▪ Code/Module view
+▪ Data view
+4+1
+CPE361 – SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIAN MAI UNIVERSITY
+Languages/Notations
+▪ UML
+▪ Service-Oriented Modeling (SOM)
+▪ Design and specify service-oriented business systems  
+within a service-oriented architecture (SOA).
+▪ Service-oriented analysis and design (SOMA)
+▪ Service-oriented modeling framework(SOMF)
+CPE361 – SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIAN MAI UNIVERSITY
+Advantages of Explicit Architecture
+CPE361 – SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIAN MAI UNIVERSITY
+▪ Stakeholder communication
+▪ Architecture may be used as a focus of discussion  
+by system stakeholders
+▪ System analysis
+▪ Means that analysis of whether the system can  
+meet its non-functional requirements is possible
+▪ Large-scale reuse
+▪ The architecture may be reusable across a range  
+of systems
+Architectural Patterns (Styles)
+CPE361 – SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIAN MAI UNIVERSITY
+▪ An architectural style/pattern is a stylized  
+description of good design practice, which has been  
+tried and tested in different environments.
+▪ Patterns may be represented in tabular and/or  
+graphical forms.
+▪ Patterns should provide information about when  
+they are and when the are not useful.
+Architectural Patterns
+CPE361 – SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIAN MAI UNIVERSITY
+▪ Model-view-controller (MVC)
+▪ Layered architecture
+▪ The Repository pattern
+▪ Client-server architecture
+▪ Database-centric architecture
+▪ Pipe and filter architecture
+▪ Application architectures
+▪ Information systems architecture
+▪ Service-oriented architecture (SOA)
+MVC
+▪ Separate Logic from Input and presentation (GUI) to  
+permit independent development and testing of  
+each.
+CPE361 – SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIAN MAI UNIVERSITY
+MVC
+CPE361 – SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIAN MAI UNIVERSITY
+Name MVC (Model-View-Controller)
+Description Separates presentation and interaction from the system data. The system
+is structured into three logical components that interact with each other.
+The Model component manages the system data and associated
+operations on that data. The View component defines and manages how
+the data is presented to the user. The Controller component manages
+user interaction (e.g., key presses, mouse clicks, etc.) and passes these
+interactions to the View and the Model. See Figure 6.3.
+Example Figure 6.4 shows the architecture of a web-based application system
+organized using the MVC pattern.
+When used Used when there are multiple ways to view and interact with data.Also
+used when the future requirements for interaction and presentation of  
+data are unknown.
+Advantages Allows  the data  to  change independently  of its representation  and vice
+versa.  Supports  presentation  of  the  same  data  in  different  ways with
+changes made in one representation shown in all of them.
+Disadvantages Can involve additional code and code complexity when the data model
+and interactions are simple.
+Web Application Architecture using MVC
+CPE361 – SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIAN MAI UNIVERSITY
+Some MVC Frameworks
+CPE361 – SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIAN MAI UNIVERSITY
+▪ GUI
+▪ Cocoa
+▪ Microsoft Foundation Class Library (MFC)
+▪ Web-based
+▪ Monorail (.NET)
+▪ CakePHP
+Layered architecture
+25
+DEPARTMENT OF COMPUTER ENGINEERING, CHIAN MAI UNIVERSITYCPE361 – SOFTWARE ENGINEERING
+▪ Used to model the interfacing of sub-systems.
+▪ Organises the system into a set of layers. Each  
+provides a set of services.
+▪ Supports the incremental development of  
+sub-systems in different layers. When a layer  
+interface changes, only the adjacent layer is  
+affected.
+The Layered architecture pattern
+26
+DEPARTMENT OF COMPUTER ENGINEERING, CHIAN MAI UNIVERSITYCPE361 – SOFTWARE ENGINEERING
+Name Layered architecture
+Description Organizes the system into layers with related functionality associated
+with each layer. A layer provides services to the layer above it so the
+lowest-level layers represent core services that are likely to be used
+throughout the system. See Figure 6.6.
+Example A layered model of a system for sharing copyright documents held in
+different libraries, as shown in Figure 6.7.
+When used Used when building new facilities on top of existing systems; when the
+development is spread across several teams with each team
+responsibility for a layer of functionality; when there is a requirement
+for multi-level security.
+Advantages Allows replacement of entire layers so long as the interface is
+maintained. Redundant facilities (e.g., authentication) can be provided  
+in each layer to increase the dependability of the system.
+Disadvantages In practice, providing a clean separation between layers is often
+difficult and a high-level layer may have to interact directly with lower-
+level layers rather than through the layer immediately below it.
+Performance can be a problem because of multiple levels of  
+interpretation of a service request as it is processed at each layer.
+A generic layered architecture
+27
+DEPARTMENT OF COMPUTER ENGINEERING, CHIAN MAI UNIVERSITYCPE361 – SOFTWARE ENGINEERING
+The architecture of the LIBSYS system
+28
+DEPARTMENT OF COMPUTER ENGINEERING, CHIAN MAI UNIVERSITYCPE361 – SOFTWARE ENGINEERING
+Repository architecture
+29
+DEPARTMENT OF COMPUTER ENGINEERING, CHIAN MAI UNIVERSITYCPE361 – SOFTWARE ENGINEERING
+▪ Sub-systems must exchange data. This may be
+done in two ways:
+▪ Shared data is held in a central database or
+repository and may be accessed by all sub-
+systems;
+▪ Each sub-system maintains its own database and
+passes data explicitly to other sub-systems.
+▪ When large amounts of data are to be shared,  
+the repository model of sharing is most  
+commonly used a this is an efficient data  
+sharing mechanism.
+The Repository pattern
+30
+DEPARTMENT OF COMPUTER ENGINEERING, CHIAN MAI UNIVERSITYCPE361 – SOFTWARE ENGINEERING
+Name Repository
+Description All data in a system is managed in a central repository that is accessible to
+all system components. Components do not interact directly, only  
+through the repository.
+Example Figure   6.9  is  an  example   of   an   IDE   where   the  components   use  a
+repository  of  system  design  information.  Each  software  tool generates
+information which is then available for use by other tools.
+When used You should use this pattern when you have a system in which large
+volumes of information are generated that has to be stored for a long
+time. You may also use it in data-driven systems where the inclusion of
+data in the repository triggers an action or tool.
+Advantages Components can be independent—they do not need to know of the
+existence of other components. Changes made by one component can be
+propagated to all components. All data can be managed consistently (e.g.,
+backups done at the same time) as it is all in one place.
+Disadvantages The repository is a single point of failure so problems in the repository
+affect the whole system. May be inefficiencies in organizing all
+communication through the repository. Distributing the repository across
+several computers may be difficult.
+A repository architecture for an IDE
+31
+DEPARTMENT OF COMPUTER ENGINEERING, CHIAN MAI UNIVERSITYCPE361 – SOFTWARE ENGINEERING
+Client-server architecture
+32
+DEPARTMENT OF COMPUTER ENGINEERING, CHIAN MAI UNIVERSITYCPE361 – SOFTWARE ENGINEERING
+▪ Distributed system model which shows how  
+data and processing is distributed across a  
+range of components.
+▪ Can be implemented on a single computer.
+▪ Set of stand-alone servers which provide  
+specific services such as printing, data  
+management, etc.
+▪ Set of clients which call on these services.
+▪ Network which allows clients to access  
+servers.
+The Client–server pattern
+33
+DEPARTMENT OF COMPUTER ENGINEERING, CHIAN MAI UNIVERSITYCPE361 – SOFTWARE ENGINEERING
+Name Client-server
+Description In a client–server architecture, the functionality of the system is
+organized into services, with each service delivered from a separate
+server. Clients are users of these services and access servers to make use
+of them.
+Example Figure 6.11 is an example of a film and video/DVD library organized as a
+client–server system.
+When used Used when data in a shared database has to be accessed from a range of
+locations. Because servers can be replicated, may also be used when the  
+load on a system is variable.
+Advantages The principal advantage of this model is that servers can be distributed
+across a network. General functionality (e.g., a printing service) can be
+available to all clients and does not need to be implemented by all
+services.
+Disadvantages Each service is a single point of failure so susceptible to denial of service
+attacks or server failure. Performance may be unpredictable because it
+depends on the network as well as the system. May be management
+problems if servers are owned by different organizations.
+A client–server architecture for a film library
+34
+DEPARTMENT OF COMPUTER ENGINEERING, CHIAN MAI UNIVERSITYCPE361 – SOFTWARE ENGINEERING
+Pipe and filter architecture
+35
+DEPARTMENT OF COMPUTER ENGINEERING, CHIAN MAI UNIVERSITYCPE361 – SOFTWARE ENGINEERING
+▪ Functional transformations process their  
+inputs to produce outputs.
+▪ May be referred to as a pipe and filter model  
+(as in UNIX shell).
+▪ Variants of this approach are very common.  
+When transformations are sequential, this is a  
+batch sequential model which is extensively  
+used in data processing systems.
+▪ Not really suitable for interactive systems.
+The pipe and filter pattern
+36
+DEPARTMENT OF COMPUTER ENGINEERING, CHIAN MAI UNIVERSITYCPE361 – SOFTWARE ENGINEERING
+Name Pipe and filter
+Description The processing of the data in a system is organized so that each processing
+component (filter) is discrete and carries out one type of data transformation.  
+The data flows (as in a pipe) from one component to another for processing.
+Example Figure 6.13 is an example of a pipe and filter system used for processing
+invoices.
+When used Commonly used in data processing applications (both batch- and transaction-
+based) where inputs are processed in separate stages to generate related  
+outputs.
+Advantages Easy to understand and supports transformation reuse. Workflow style
+matches the structure of many business processes. Evolution by adding
+transformations is straightforward. Can be implemented as either a sequential
+or concurrent system.
+Disadvantages The format for data transfer has to be agreAed upon between communicating
+transformations. Each transformation must parse its input and unparse its
+output to the agreed form. This increases system overhead and may mean
+that it is impossible to reuse functional transformations that use incompatible
+data structures.
+Example: pipe and filter architecture
+37
+DEPARTMENT OF COMPUTER ENGINEERING, CHIAN MAI UNIVERSITYCPE361 – SOFTWARE ENGINEERING
+Application architectures
+38
+DEPARTMENT OF COMPUTER ENGINEERING, CHIAN MAI UNIVERSITYCPE361 – SOFTWARE ENGINEERING
+▪ Application systems are designed to meet an  
+organisational need.
+▪ As businesses have much in common, their  
+application systems also tend to have a  
+common architecture that reflects the  
+application requirements.
+▪ A generic application architecture is an  
+architecture for a type of software system  
+that may be configured and adapted to create  
+a system that meets specific requirements.
+Use of application architectures
+39
+DEPARTMENT OF COMPUTER ENGINEERING, CHIAN MAI UNIVERSITYCPE361 – SOFTWARE ENGINEERING
+▪ As a starting point for architectural design.
+▪ As a design checklist.
+▪ As a way of organising the work of the  
+development team.
+▪ As a means of assessing components for  
+reuse.
+▪ As a vocabulary for talking about application  
+types.
+Examples of application types
+40
+DEPARTMENT OF COMPUTER ENGINEERING, CHIAN MAI UNIVERSITYCPE361 – SOFTWARE ENGINEERING
+▪ Data processing applications
+▪ Data driven applications that process data in batches without explicit  
+user intervention during the processing.
+▪ Transaction processingapplications
+▪ Data-centred applications that process user requests and update  
+information in a system database.
+▪ Event processing systems
+▪ Applications where system actions depend on interpreting events
+from the system’senvironment.
+▪ Language processing systems
+▪ Applications where the users’ intentions are specified in a formal
+language that is processed and interpreted by the system.
+Application type examples
+41
+DEPARTMENT OF COMPUTER ENGINEERING, CHIAN MAI UNIVERSITYCPE361 – SOFTWARE ENGINEERING
+▪ Focus here is on transaction processing and  
+language processing systems.
+▪ Transaction processingsystems
+▪ E-commerce systems;
+▪ Reservation systems.
+▪ Language processing systems
+▪ Compilers;
+▪ Command interpreters.
+Transaction processing systems
+42
+DEPARTMENT OF COMPUTER ENGINEERING, CHIAN MAI UNIVERSITYCPE361 – SOFTWARE ENGINEERING
+▪ Process user requests for information from a  
+database or requests to update the database.
+▪ From a user perspective a transaction is:
+▪ Any coherent sequence of operations that  
+satisfies a goal;
+▪ For example - find the times of flights from  
+London to Paris.
+▪ Users make asynchronous requests for service  
+which are then processed by a transaction  
+manager.
+The structure of transaction processing applications
+43
+DEPARTMENT OF COMPUTER ENGINEERING, CHIAN MAI UNIVERSITYCPE361 – SOFTWARE ENGINEERING
+The software architecture of an ATM system
+44
+DEPARTMENT OF COMPUTER ENGINEERING, CHIAN MAI UNIVERSITYCPE361 – SOFTWARE ENGINEERING
+Information systems architecture
+45
+DEPARTMENT OF COMPUTER ENGINEERING, CHIAN MAI UNIVERSITYCPE361 – SOFTWARE ENGINEERING
+▪ Information systems have a generic architecture that  
+can be organised as a layered architecture.
+▪ These are transaction-based systems as interaction  
+with these systems generally involves database  
+transactions.
+▪ Layers include:
+▪ The user interface
+▪ User communications
+▪ Information retrieval
+▪ System database
+Layered information system architecture
+46
+DEPARTMENT OF COMPUTER ENGINEERING, CHIAN MAI UNIVERSITYCPE361 – SOFTWARE ENGINEERING
+The architecture of the MHC-PMS
+47
+DEPARTMENT OF COMPUTER ENGINEERING, CHIAN MAI UNIVERSITYCPE361 – SOFTWARE ENGINEERING
+Web-based information systems
+48
+DEPARTMENT OF COMPUTER ENGINEERING, CHIAN MAI UNIVERSITYCPE361 – SOFTWARE ENGINEERING
+▪ Information and resource management systems are now
+usually web-based systems where the user interfaces are
+implemented using a web browser.
+▪ For example, e-commerce systems are Internet-based  
+resource management systems that accept electronic orders  
+for goods or services and then arrange delivery of these  
+goods or services to the customer.
+▪ In an e-commerce system, the application-specific layer  
+includes additional functionality supporting a ‘shopping cart’  
+in which users can place a number of items in separate  
+transactions, then pay for them all together in a single  
+transaction.
+Server implementation
+49
+DEPARTMENT OF COMPUTER ENGINEERING, CHIAN MAI UNIVERSITYCPE361 – SOFTWARE ENGINEERING
+▪ These systems are often implemented as  
+multi-tier client server/architectures  
+(discussed in Chapter 18)
+▪ The web server is responsible for all user communications,
+with the user interface implemented using a web browser;
+▪ The application server is responsible for implementing
+application-specific logic as well as information storage
+and retrieval requests;
+▪ The database server moves information to and from the
+database and handles transaction management.
+Language processing systems
+50
+DEPARTMENT OF COMPUTER ENGINEERING, CHIAN MAI UNIVERSITYCPE361 – SOFTWARE ENGINEERING
+▪ Accept a natural or artificial language as input and  
+generate some other representation of that  
+language.
+▪ May include an interpreter to act on the instructions  
+in the language that is being processed.
+▪ Used in situations where the easiest way to solve a
+problem is to describe an algorithm or describe the
+system data
+▪ Meta-case tools process tool descriptions,
+method rules, etc and generate tools.
+The architecture of a language processing system
+51
+DEPARTMENT OF COMPUTER ENGINEERING, CHIAN MAI UNIVERSITYCPE361 – SOFTWARE ENGINEERING
+Compiler components
+52
+DEPARTMENT OF COMPUTER ENGINEERING, CHIAN MAI UNIVERSITYCPE361 – SOFTWARE ENGINEERING
+▪ A lexical analyzer, which takes input language tokens  
+and converts them to an internal form.
+▪ A symbol table, which holds information about the  
+names of entities (variables, class names, object  
+names, etc.) used in the text that is being translated.
+▪ A syntax analyzer, which checks the syntax of the  
+language being translated.
+▪ A syntax tree, which is an internal structure  
+representing the program being compiled.
+Compiler components
+53
+DEPARTMENT OF COMPUTER ENGINEERING, CHIAN MAI UNIVERSITYCPE361 – SOFTWARE ENGINEERING
+▪ A semantic analyzer that uses information  
+from the syntax tree and the symbol table to  
+check the semantic correctness of the input  
+language text.
+▪ A code generator that ‘walks’ the syntax tree  
+and generates abstract machine code.
+A pipe and filter compiler architecture
+54
+DEPARTMENT OF COMPUTER ENGINEERING, CHIAN MAI UNIVERSITYCPE361 – SOFTWARE ENGINEERING
+A repository architecture for a language  
+processing system
+55
+DEPARTMENT OF COMPUTER ENGINEERING, CHIAN MAI UNIVERSITYCPE361 – SOFTWARE ENGINEERING
+Summary
+CPE361 – SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIAN MAI UNIVERSITY
+▪ A software architecture should represent the  
+overview of system’s logic, process,  
+development and deployment.
+▪ Reusing architectural patterns is encouraged.
+55
+End of Lecture Questions
+CPE361 – SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIAN MAI UNIVERSITY
+1. What is an architectural design? 
+2. What is 4+1 views model?
+3. Name a few architectural patterns.
+4. Why bother desiging software 
+architecture?
+5. Do software architectural patterns 
+speed up software development? 
+How?
+References
+CPE361 – SOFTWARE ENGINEERING DEPARTMENT OF COMPUTER ENGINEERING, CHIAN MAI UNIVERSITY
+1. What is?
+• NNGroup.com, “When and How to Create Customer 
+Journey Maps” 
+2. Process
+• Heekyung Moon, Sung H. Han, Jaemin Chun, and 
+Sang W. Hong , “A Design Process for a Customer 
+Journey Map: A Case Study on Mobile Services”
+3. Examples
+• Reforge.com, “Explore real examples of User Journey 
+Maps”
+© Ian Sommerville 2018
+Testing
+© Ian Sommerville 2018:Testing
+• Software testing is a process in which you execute your program using 
+data that simulates user inputs. 
+• You observe its behaviour to see whether or not your program is doing 
+what it is supposed to do. 
+• Tests pass if the behaviour is what you expect. Tests fail if the behaviour differs 
+from that expected.
+• If your program does what you expect, this shows that for the inputs used, the 
+program behaves correctly. 
+• If these inputs are representative of a larger set of inputs, you can infer 
+that the program will behave correctly for all members of this larger input 
+set.
+Software testing
+2
+© Ian Sommerville 2018:Testing
+• If the behaviour of the program does not match the behaviour that you 
+expect, then this means that there are bugs in your program that need to 
+be fixed. 
+• There are two causes of program bugs:
+• Programming errors You have accidentally included faults in your program 
+code. For example, a common programming error is an ‘off-by-1’ error where 
+you make a mistake with the upper bound of a sequence and fail to process the 
+last element in that sequence. 
+• Understanding errors You have misunderstood or have been unaware of 
+some of the details of what the program is supposed to do. For example, if your 
+program processes data from a file, you may not be aware that some of this 
+data is in the wrong format, so your program doesn’t include code to handle this.
+Program bugs
+3
+© Ian Sommerville 2018:Testing
+Functional testing
+Test the functionality of the overall system. The goals of functional testing are to 
+discover as many bugs as possible in the implementation of the system and to provide 
+convincing evidence that the system is fit for its intended purpose.
+User testing
+Test that the software product is useful to and usable by end-users. You need to show 
+that the features of the system help users do what they want to do with the software. 
+You should also show that users understand how to access the software’s features 
+and can use these features effectively.
+Performance and load testing
+Test that the software works quickly and can handle the expected load placed on the 
+system by its users. You need to show that the response and processing time of your 
+system is acceptable to end-users. You also need to demonstrate that your system 
+can handle different loads and scales gracefully as the load on the software increases.
+Security testing
+Test that the software maintains its integrity and can protect user information from theft 
+and damage. 
+Table 9.1 Types of testing
+4
+© Ian Sommerville 2018:Testing
+• Functional testing involves developing a large set of program tests so 
+that, ideally, all of a program’s code is executed at least once. 
+• The number of tests needed obviously depends on the size and the 
+functionality of the application. 
+• For a business-focused web application, you may have to develop 
+thousands of tests to convince yourself that your product is ready for 
+release to customers.
+• Functional testing is a staged activity in which you initially test individual 
+units of code. You integrate code units with other units to create larger 
+units then do more testing. 
+• The process continues until you have created a complete system ready 
+for release. 
+Functional testing
+5
+© Ian Sommerville 2018:Testing
+Figure 9.2 Functional testing
+6
+
+© Ian Sommerville 2018:Testing
+Unit testing
+The aim of unit testing is to test program units in isolation. Tests should be designed to execute 
+all of the code in a unit at least once. Individual code units are tested by the programmer as 
+they are developed.
+Feature testing
+Code units are integrated to create features. Feature tests should test all aspects of a feature. 
+All of the programmers who contribute code units to a feature should be involved in its testing.
+System testing
+Code units are integrated to create a working (perhaps incomplete) version of a system. The 
+aim of system testing is to check that there are no unexpected interactions between the 
+features in the system. System testing may also involve checking the responsiveness, reliability 
+and security of the system. In large companies, a dedicated testing team may be responsible 
+for system testing. In small companies, this is impractical, so product developers are also 
+involved in system testing.
+Release testing
+The system is packaged for release to customers and the release is tested to check that it 
+operates as expected. The software may be released as a cloud service or as a download to be 
+installed on a customer’s computer or mobile device. If DevOps is used, then the development 
+team are responsible for release testing otherwise a separate team has that responsibility.
+Table 9.2 Functional testing processes
+7
+© Ian Sommerville 2018:Testing
+• As you develop a code unit, you should also develop tests for that code. 
+• A code unit is anything that has a clearly defined responsibility. It is 
+usually a function or class method but could be a module that includes a 
+small number of other functions. 
+• Unit testing is based on a simple general principle:
+• If a program unit behaves as expected for a set of inputs that have some shared 
+characteristics, it will behave in the same way for a larger set whose members 
+share these characteristics.
+• To test a program efficiently, you should identify sets of inputs 
+(equivalence partitions) that will be treated in the same way in your code. 
+• The equivalence partitions that you identify should not just include those 
+containing inputs that produce the correct values. You should also identify 
+‘incorrectness partitions’ where the inputs are deliberately incorrect. 
+Unit testing
+8
+© Ian Sommerville 2018:Testing
+Figure 9.3 Equivalence partitions
+9
+
+© Ian Sommerville 2018:Testing
+def namecheck (s):
+# Checks that a name only includes alphabetic characters, - or 
+# a single quote. Names must be between 2 and 40 characters long
+# quoted strings and -- are disallowed
+namex = r"^[a-zA-Z][a-zA-Z-']{1,39}$"
+if re.match (namex, s):
+if re.search ("'.*'", s) or re.search ("--", s):
+return False
+else:
+return True
+else:
+return False 
+10
+Program 9.1
+A name checking 
+function
+© Ian Sommerville 2018:Testing
+Correct names 1
+The inputs only includes alphabetic characters and are between 2 and 40 characters long.
+Correct names 2
+The inputs only includes alphabetic characters, hyphens or apostrophes and are between 
+2 and 40 characters long.
+Incorrect names 1
+The inputs are between 2 and 40 characters long but include disallowed characters.
+Incorrect names 2
+The inputs include allowed characters but are either a single character or are more than 
+40 characters long.
+Incorrect names 3
+The inputs are between 2 and 40 characters long but the first character is a hyphen or an 
+apostrophe.
+Incorrect names 4
+The inputs include valid characters, are between 2 and 40 characters long, but include 
+either a double hyphen, quoted text or both.
+Table 9.3 Equivalence partitions for the name checking function
+11
+© Ian Sommerville 2018:Testing
+Test edge cases
+If your partition has upper and lower bounds (e.g. length of strings, numbers, etc.) 
+choose inputs at the edges of the range.
+Force errors
+Choose test inputs that force the system to generate all error messages. Choose 
+test inputs that should generate invalid outputs.
+Fill buffers
+Choose test inputs that cause all input buffers to overflow.
+Repeat yourself
+Repeat the same test input or series of inputs several times.
+Table 9.4 Unit testing guidelines (1)
+12
+© Ian Sommerville 2018:Testing
+Overflow and underflow
+If your program does numeric calculations, choose test inputs that cause it to 
+calculate very large or very small numbers.
+Don’t forget null and zero
+If your program uses pointers or strings, always test with null pointers and strings. 
+If you use sequences, test with an empty sequence. For numeric inputs, always 
+test with zero.
+Keep count
+When dealing with lists and list transformation, keep count of the number of 
+elements in each list and check that these are consistent after each 
+transformation.
+One is different
+If your program deals with sequences, always test with sequences that have a 
+single value.
+Table 9.4 Unit testing guidelines (2)
+13
+© Ian Sommerville 2018:Testing
+• Features have to be tested to show that the functionality is implemented 
+as expected and that the functionality meets the real needs of users. 
+• For example, if your product has a feature that allows users to login using their 
+Google account, then you have to check that this registers the user correctly 
+and informs them of what information will be shared with Google. 
+• You may want to check that it gives users the option to sign up for email 
+information about your product.
+• Normally, a feature that does several things is implemented by multiple, 
+interacting, program units. 
+• These units may be implemented by different developers and all of these 
+developers should be involved in the feature testing process. 
+Feature testing
+14
+© Ian Sommerville 2018:Testing
+• Interaction tests
+• These test the interactions between the units that implement the feature. The developers of the 
+units that are combined to make up the feature may have different understandings of what is 
+required of that feature. 
+• These misunderstandings will not show up in unit tests but may only come to light when the 
+units are integrated. 
+• The integration may also reveal bugs in program units, which were not exposed by unit testing.
+• Usefulness tests
+• These test that the feature implements what users are likely to want. 
+• For example, the developers of a login with Google feature may have implemented an opt-out 
+default on registration so that users receive all emails from a company. They must expressly 
+choose what type of emails that they don’t want. 
+• What might be preferred is an opt-in default so that users choose what types of email they do 
+want to receive.
+Types of feature test
+15
+© Ian Sommerville 2018:Testing
+User registration
+As a user, I want to be able to login without creating a new account so that I don’t 
+have to remember another login id and password.
+Information sharing
+As a user, I want to know what information you will share with other companies. I 
+want to be able to cancel my registration if I don’t want to share this information.
+Email choice
+As a user, I want to be able to choose the types of email that I’ll get from you 
+when I register for an account.
+Table 9.5 User stories for the sign-in with Google feature
+16
+© Ian Sommerville 2018:Testing
+Initial login screen
+Test that the screen displaying a request for Google account credentials is 
+correctly displayed when a user clicks on the ‘Sign-in with Google’ link. Test that 
+the login is completed if the user is already logged in to Google.
+Incorrect credentials
+Test that the error message and retry screen is displayed if the user inputs 
+incorrect Google credentials.
+Shared information
+Test that the information shared with Google is displayed, along with a cancel or 
+confirm option.  Test that the registration is cancelled if the cancel option is 
+chosen.
+Email opt-in
+Test that the user is offered a menu of options for email information and can 
+choose multiple items to opt-in to emails. Test that the user is not registered for 
+any emails if no options are selected.
+Table 9.6 Feature tests for sign-in with Google
+17
+© Ian Sommerville 2018:Testing
+• System testing involves testing the system as a whole, rather than the 
+individual system features. 
+• System testing should focus on four things:
+• Testing to discover if there are unexpected and unwanted interactions between 
+the features in a system.
+• Testing to discover if the system features work together effectively to support 
+what users really want to do with the system.
+• Testing the system to make sure it operates in the expected way in the different 
+environments where it will be used. 
+• Testing the responsiveness, throughput, security and other quality attributes of 
+the system. 
+System and release testing
+18
+© Ian Sommerville 2018:Testing
+• The best way to systematically test a system is to start with a set of 
+scenarios that describe possible uses of the system and then work 
+through these scenarios each time a new version of the system is 
+created. 
+• Using the scenario, you identify a set of end-to-end pathways that users 
+might follow when using the system. 
+• An end-to-end pathway is a sequence of actions from starting to use the 
+system for the task, through to completion of the task. 
+Scenario-based testing
+19
+© Ian Sommerville 2018:Testing
+Andrew and Maria have a two year old son and a four month old daughter. They live in 
+Scotland and they want to have a holiday in the sunshine. However, they are concerned 
+about the hassle of flying with young children. They decide to try a family holiday planner 
+product to help them choose a destination that is easy to get to and that fits in with their 
+childrens’ routines.
+Maria navigates to the holiday planner website and selects the ‘find a destination’ page. 
+This presents a screen with a number of options. She can choose a specific destination 
+or can choose a departure airport and find all destinations that have direct flights from 
+that airport. She can also input the time band that she’d prefer for flights, holiday dates 
+and a maximum cost per person.
+Edinburgh is their closest departure airport. She chooses ‘find direct flights’. The system 
+then presents a list of countries that have direct flights from Edinburgh and the days 
+when these flights operate. She selects France, Italy, Portugal and Spain and requests 
+further information about these flights. She then sets a filter to display flights that leave 
+on a Saturday or Sunday after 7.30am and arrive before 6pm. 
+She also sets the maximum acceptable cost for a flight. The list of flights is pruned 
+according to the filter and is redisplayed. Maria then clicks on the flight she wants. This 
+opens a tab in her browser showing a booking form for this flight on the airline’s website.
+Figure 9.7 Choosing a holiday destination
+20
+© Ian Sommerville 2018:Testing
+1. User inputs departure airport and chooses to see only direct flights. User quits.
+2. User inputs departure airport and chooses to see all flights. User quits.
+3. User chooses destination country and chooses to see all flights. User quits.
+4. User inputs departure airport and chooses to see direct flights. User sets filter 
+specifying departure times and prices. User quits.
+5. User inputs departure airport and chooses to see direct flights. User sets filter 
+specifying departure times and prices. User selects a displayed flight and clicks 
+through to airline website. User returns to holiday planner after booking flight.
+Table 9.8 End-to-end pathways
+21
+© Ian Sommerville 2018:Testing
+• Release testing is a type of system testing where a system that’s intended for 
+release to customers is tested. 
+• The fundamental differences between release testing and system testing are:
+• Release testing tests the system in its real operational environment rather than in a 
+test environment. Problems commonly arise with real user data, which is sometimes 
+more complex and less reliable than test data.
+• The aim of release testing is to decide if the system is good enough to release, not to 
+detect bugs in the system. Therefore, some tests that ‘fail’ may be ignored if these 
+have minimal consequences for most users.
+• Preparing a system for release involves packaging that system for 
+deployment (e.g. in a container if it is a cloud service) and installing software 
+and libraries that are used by your product. You must define configuration 
+parameters such as the name of a root directory, the database size limit per 
+user and so on. 
+Release testing
+22
+© Ian Sommerville 2018:Testing
+• Automated testing is based on the idea that tests should be executable. 
+• An executable test includes the input data to the unit that is being tested, 
+the expected result and a check that the unit returns the expected result. 
+• You run the test and the test passes if the unit returns the expected 
+result. 
+• Normally, you should develop hundreds or thousands of executable tests 
+for a software product.
+Test automation
+23
+© Ian Sommerville 2018:Testing
+Figure 9.4 Automated testing
+24
+
+© Ian Sommerville 2018:Testing
+# TestInterestCalculator inherits attributes and methods from the class 
+# TestCase in the testing framework unittest
+class TestInterestCalculator (unittest.TestCase):
+# Define a set of unit tests where each test tests one thing only
+# Tests should start with test_ and the name should explain what is being tested
+def test_zeroprincipal (self):
+#Arrange - set up the test parameters
+p = 0; r = 3; n = 31
+result_should_be = 0
+#Action - Call the method to be tested
+interest = interest_calculator (p, r, n)
+#Assert - test what should be true
+self.assertEqual (result_should_be, interest)
+def test_yearly_interest (self):
+#Arrange - set up the test parameters
+p = 17000; r = 3; n = 365
+#Action - Call the method to be tested
+result_should_be = 270.36
+interest = interest_calculator (p, r, n)
+#Assert - test what should be true
+self.assertEqual (result_should_be, interest)
+25
+Program 9.2 Test 
+methods for an 
+interest calculator
+© Ian Sommerville 2018:Testing
+• It is good practice to structure automated tests into three parts:
+• Arrange You set up the system to run the test. This involves defining the test 
+parameters and, if necessary, mock objects that emulate the functionality of 
+code that has not yet been developed.
+• Action You call the unit that is being tested with the test parameters. 
+• Assert You make an assertion about what should hold if the unit being tested 
+has executed successfully. In Program 9.2, I use AssertEquals, which checks if 
+its parameters are equal.
+• If you use equivalence partitions to identify test inputs, you should have 
+several automated tests based on correct and incorrect inputs from each 
+partition. 
+Automated tests
+26
+© Ian Sommerville 2018:Testing
+import unittest
+from RE_checker import namecheck
+class TestNameCheck (unittest.TestCase):
+def test_alphaname (self):
+self.assertTrue (namecheck ('Sommerville'))
+def test_doublequote (self):
+self.assertFalse (namecheck ("Thisis'maliciouscode'"))
+def test_namestartswithhyphen (self):
+self.assertFalse (namecheck ('-Sommerville'))
+def test_namestartswithquote (self):
+self.assertFalse (namecheck ("'Reilly"))
+def test_nametoolong (self):
+self.assertFalse (namecheck ('Thisisalongstringwithmorethen40charactersfrombeginningtoend'))
+def test_nametooshort (self):
+self.assertFalse (namecheck ('S'))
+def test_namewithdigit (self):
+self.assertFalse (namecheck('C-3PO'))
+def test_namewithdoublehyphen (self):
+self.assertFalse (namecheck ('--badcode'))
+27
+Program 9.3 (1) 
+Executable tests for the 
+namecheck function
+© Ian Sommerville 2018:Testing
+def test_namewithhyphen (self):
+self.assertTrue (namecheck ('Washington-Wilson'))
+def test_namewithinvalidchar (self):
+self.assertFalse (namecheck('Sommer_ville'))
+def test_namewithquote (self):
+self.assertTrue (namecheck ("O'Reilly"))
+def test_namewithspaces (self):
+self.assertFalse (namecheck ('Washington Wilson'))
+def test_shortname (self):
+self.assertTrue ('Sx')
+def test_thiswillfail (self):
+self.assertTrue (namecheck ("O Reilly"))
+28
+Program 9.3 (2)
+Executable tests for the 
+namecheck function
+© Ian Sommerville 2018:Testing
+import unittest
+loader = unittest.TestLoader()
+#Find the test files in the current directory
+tests = loader.discover('.')
+#Specify the level of information provided by the test runner
+testRunner = unittest.runner.TextTestRunner(verbosity=2)
+testRunner.run(tests)
+29
+Program 9.4 Code to 
+run unit tests from 
+files
+© Ian Sommerville 2018:Testing
+Figure 9.5 The test pyramid
+30
+
+© Ian Sommerville 2018:Testing
+• Generally, users access features through the product’s graphical user 
+interface (GUI). 
+• However, GUI-based testing is expensive to automate so it is best to 
+design your product so that its features can be directly accessed through 
+an API and not just from the user interface. 
+• The feature tests can then access features directly through the API 
+without the need for direct user interaction through the system’s GUI. 
+• Accessing features through an API has the additional benefit that it is 
+possible to re-implement the GUI without changing the functional 
+components of the software.
+Automated feature testing
+31
+© Ian Sommerville 2018:Testing
+Figure 9.6 Feature editing through an API
+32
+
+© Ian Sommerville 2018:Testing
+• System testing, which should follow feature testing, involves testing the 
+system as a surrogate user. 
+• As a system tester, you go through a process of selecting items from 
+menus, making screen selections, inputting information from the 
+keyboard and so on. 
+• You are looking for interactions between features that cause problems, 
+sequences of actions that lead to system crashes and so on.
+• Manual system testing, when testers have to repeat sequences of 
+actions, is boring and error-prone. In some cases, the timing of actions is 
+important and is practically impossible to repeat consistently. 
+• To avoid these problems, testing tools have been developed that can record a 
+series of actions and automatically replay these when a system is retested
+System testing
+33
+© Ian Sommerville 2018:Testing
+Figure 9.7 Interaction recording and playback
+34
+
+© Ian Sommerville 2018:Testing
+• Test-driven development (TDD) is an approach to program development 
+that is based around the general idea that you should write an 
+executable test or tests for code that you are writing before you write the 
+code. 
+• It was introduced by early users of the Extreme Programming agile 
+method, but it can be used with any incremental development approach.
+• Test-driven development works best for the development of individual 
+program units and it is more difficult to apply to system testing. 
+• Even the strongest advocates of TDD accept that it is challenging to use 
+this approach when you are developing and testing systems with 
+graphical user interfaces.
+Test-driven development
+35
+© Ian Sommerville 2018:Testing
+Figure 9.8 Test-driven development
+36
+
+© Ian Sommerville 2018:Testing
+Identify partial implementation
+Break down the implementation of the functionality required into smaller mini-
+units. Choose one of these mini-units for implementation.
+Write mini-unit tests
+Write one or more automated tests for the mini-unit that you have chosen for 
+implementation. The mini-unit should pass these tests if it is properly 
+implemented.
+Write a code stub that will fail test
+Write incomplete code that will be called to implement the mini-unit. You know 
+this will fail.
+Run all existing automated tests
+All previous tests should pass. The test for the incomplete code should fail.
+Table 9.9 Stages of test-driven development (1)
+37
+© Ian Sommerville 2018:Testing
+Implement code that should cause the failing test to pass
+Write code to implement the mini-unit, which should cause it to operate correctly
+Rerun all automated tests
+If any tests fail, your code is probably incorrect. Keep working on it until all tests 
+pass.
+Refactor code if necessary
+If all tests pass, you can move on to implementing  the next mini-unit. If you see 
+ways of improving your code, you should do this before the next stage of 
+implementation.
+Table 9.9 Stages of test-driven development (2)
+38
+© Ian Sommerville 2018:Testing
+• It is a systematic approach to testing in which tests are clearly linked to 
+sections of the program code. 
+• This means you can be confident that your tests cover all of the code that has 
+been developed and that there are no untested code sections in the delivered 
+code. In my view, this is the most significant benefit of TDD. 
+• The tests act as a written specification for the program code. In principle 
+at least, it should be possible to understand what the program does by 
+reading the tests. 
+• Debugging is simplified because, when a program failure is observed, you 
+can immediately link this to the last increment of code that you added to 
+the system.
+• It is argued that TDD leads to simpler code as programmers only write 
+code that’s necessary to pass tests. They don’t over-engineer their code 
+with complex features that aren’t needed.
+Benefits of test-driven development
+39
+© Ian Sommerville 2018:Testing
+TDD discourages radical program change
+I found that I was reluctant to make refactoring decisions that I knew would cause many 
+tests to fail. I tended to avoid radical program change for this reason.
+I focused on the tests rather than the problem I was trying to solve
+A basic principle of TDD is that your design should be driven by the tests you have written. I 
+found that I was unconsciously redefining the problem I was trying to solve to make it easier 
+to write tests. This meant that I sometimes didn’t implement important checks, because it 
+was difficult to write tests in advance of their implementation.
+I spent too much time thinking about implementation details rather than the 
+programming problem
+Sometimes when programming, it is best to step back and look at the program as a whole 
+rather than focusing on implementation details. TDD encourages a focus on details that 
+might cause tests to pass or fail and discourages large-scale program revisions.
+It is hard to write ‘bad data’ tests
+Many problems involving dealing with messy and incomplete data. It is practically impossible 
+to anticipate all of the data problems that might arise and write tests for these in advance. 
+You might argue that you should simply reject bad data but this is sometimes impractical.
+Table 9.10 My reasons for not using TDD
+40
+© Ian Sommerville 2018:Testing
+• Security testing aims to find vulnerabilities that may be exploited by an 
+attacker and to provide convincing evidence that the system is 
+sufficiently secure. 
+• The tests should demonstrate that the system can resist attacks on its 
+availability, attacks that try to inject malware and attacks that try to 
+corrupt or steal users’ data and identity.
+• Comprehensive security testing requires specialist knowledge of 
+software vulnerabilities and approaches to testing that can find these 
+vulnerabilities. 
+Security testing
+41
+© Ian Sommerville 2018:Testing
+• A risk-based approach to security testing involves identifying common 
+risks and developing tests to demonstrate that the system protects itself 
+from these risks. 
+• You may also use automated tools that scan your system to check for 
+known vulnerabilities, such as unused HTTP ports being left open.
+• Based on the risks that have been identified, you then design tests and 
+checks to see if the system is vulnerable. 
+• It may be possible to construct automated tests for some of these 
+checks, but others inevitably involve manual checking of the system’s 
+behaviour and its files.
+Risk-based security testing
+42
+© Ian Sommerville 2018:Testing
+Unauthorized attacker gains access to a system using authorized credentials
+Authorized individual accesses resources that are forbidden to them
+Authentication system fails to detect unauthorized attacker
+Attacker gains access to database using SQL poisoning attack
+Improper management of HTTP session
+HTTP session cookies revealed to attacker
+Confidential data are unencrypted
+Encryption keys are leaked to potential attackers
+Table 9.11 Examples of security risks
+43
+© Ian Sommerville 2018:Testing
+• Once you have identified security risks, you then analyze them to assess 
+how they might arise. For example, for the first risk in Table 9.11 
+(unauthorized attacker) there are several possibilities:
+• The user has set weak passwords that can be guessed by an attacker.
+• The system’s password file has been stolen and passwords discovered by 
+attacker.
+• The user has not set up two-factor authentication.
+• An attacker has discovered credentials of a legitimate user through social 
+engineering techniques.
+• You can then develop tests to check some of these possibilities. 
+• For example, you might run a test to check that the code that allows users to set 
+their passwords always checks the strength of passwords. 
+Risk analysis
+44
+© Ian Sommerville 2018:Testing
+• Code reviews involve one or more people examining the code to check 
+for errors and anomalies and discussing issues with the developer. 
+• If problems are identified, it is the developer’s responsibility to change 
+the code to fix the problems. 
+• Code reviews complement testing. They are effective in finding bugs that 
+arise through misunderstandings and bugs that may only arise when 
+unusual sequences of code are executed.
+• Many software companies insist that all code has to go through a 
+process of code review before it is integrated into the product codebase.
+Code reviews
+45
+© Ian Sommerville 2018:Testing
+Figure 9.9 Code reviews
+46
+
+© Ian Sommerville 2018:Testing
+Setup review
+The programmer contacts a reviewer and arranges a review date.
+Prepare code
+The programmer collects the code and tests for review and annotates them with 
+information for the reviewer about the intended purpose of the code and tests.
+Distribute code/tests
+The programmer sends code and tests to the reviewer.
+Check code
+The reviewer systematically checks the code and tests against their 
+understanding of what they are supposed to do.
+Write review report
+The reviewer annotates the code and tests with a report of the issues to be 
+discussed at the review meeting.
+Table 9.12 Code review activities (1)
+47
+© Ian Sommerville 2018:Testing
+Discussion
+The reviewer and programmer discuss the issues and agree on the actions to 
+resolve these.
+Make to-do list
+The programmer documents the outcome of the review as a to-do list and shares 
+this with the reviewer.
+Make code changes
+The programmer modifies their code and tests to address the issues raised in the 
+review.
+Table 9.12 Code review activities (2)
+48
+© Ian Sommerville 2018:Testing
+Are meaningful variable and function names used? (General)
+Meaningful names make a program easier to read and understand.
+Have all data errors been considered and tests written for them? (General)
+It is easy to write tests for the most common cases but it is equally important to check that the 
+program won’t fail when presented with incorrect data.
+Are all exceptions explicitly handled? (General)
+Unhandled exceptions may cause a system to crash.
+Are default function parameters used? (Python)
+Python allows default values to be set for function parameters when the function is defined. This 
+often leads to errors when programmers forget about or misuse them.  
+Are types used consistently? (Python)
+Python does not have compile-time type checking so it it is possible to assign values of different 
+types to the same variable. This is best avoided but, if used, it should be justified.
+Is the indentation level correct? (Python)
+Python uses indentation rather than explicit brackets after conditional statements to indicate the code 
+to be executed if the condition is true or false. If the code is not properly indented in nested 
+conditionals this may mean that incorrect code is executed.
+Table 9.13 Part of a checklist for a Python code review 
+49
+© Ian Sommerville 2018:Testing
+• The aim of program testing is to find bugs and to show that a program does what 
+its developers expect it to do. 
+• Four types of testing that are relevant to software products are functional testing, 
+user testing, load and performance testing and security testing.
+• Unit testing involves testing program units such as functions or class methods that 
+have a single responsibility. Feature testing focuses on testing individual system 
+features. System testing tests the system as a whole to check for unwanted 
+interactions between features and between the system and its environment.
+• Identifying equivalence partitions, in which all inputs have the same characteristics, 
+and choosing test inputs at the boundaries of these partitions, is an effective way 
+of finding bugs in a program.
+• User stories may be used as a basis for deriving feature tests.
+• Test automation is based on the idea that tests should be executable. You develop 
+a set of executable tests and run these each time you make a change to a system.
+Key points 1
+50
+© Ian Sommerville 2018:Testing
+• The structure of an automated unit test should be arrange-action-assert. 
+You set up the test parameters, call the function or method being tested, 
+and make an assertion of what should be true after the action has been 
+completed.
+• Test-driven development is an approach to development where executable 
+tests are written before the code. Code is then developed to pass the tests.
+• A disadvantage of test-driven development is that programmers focus on 
+the detail of passing tests rather than considering the broader structure of 
+their code and algorithms used.
+• Security testing may be risk driven where a list of security risks is used to 
+identify tests that may identify system vulnerabilities.
+• Code reviews are an effective supplement to testing. They involve people 
+checking the code to comment on the code quality and to look for bugs.
+Key points 2
+51
