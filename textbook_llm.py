@@ -1,37 +1,41 @@
-# Suppress any remaining UserWarnings (just in case)
 import warnings
+import time
+import re
+from rich.console import Console
+from rich.markdown import Markdown
+
 warnings.filterwarnings("ignore", category=UserWarning)
 warnings.filterwarnings("ignore", category=DeprecationWarning)
 
-# Use only the community/up-to-date packages
 from langchain_community.document_loaders import TextLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_community.vectorstores import Chroma
 from langchain_ollama import OllamaLLM
 from langchain_huggingface import HuggingFaceEmbeddings
 
+console = Console()
+
 # 1️⃣ Load your textbook
-print("📥 Loading textbook...")
 loader = TextLoader("textbook.txt", encoding="utf-8")
 docs = loader.load()
-print(f"✅ Loaded {len(docs)} document(s).")
 
-# 2️⃣ Split into chunks
-print("✂️ Splitting documents into chunks...")
-splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=100)
+# 2️⃣ Split into smaller chunks
+splitter = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=50)
 texts = splitter.split_documents(docs)
-print(f"✅ Split into {len(texts)} chunks.")
 
 # 3️⃣ Create embeddings
-print("🔢 Converting chunks into vector embeddings (this may take a while)...")
 hf_model = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
 db = Chroma.from_documents(texts, hf_model, persist_directory="./db")
-print("✅ Vector database created. Ready for questions!")
 
-# 4️⃣ Initialize the updated Ollama LLM
+# 4️⃣ Initialize LLM
 llm = OllamaLLM(model="deepseek-r1:8b")
 
-print("📘 Ready! Type your question (or 'exit' to quit).")
+console.print("📘 Ready! Type your question (or 'exit' to quit).\n", style="bold cyan")
+
+# Helper function to split text into sentences
+def split_sentences(text):
+    # This regex splits on period, question mark, exclamation mark followed by space
+    return re.split(r'(?<=[.!?]) +', text)
 
 # 5️⃣ Streaming chat loop
 while True:
@@ -40,13 +44,12 @@ while True:
         break
 
     # Retrieve relevant chunks
-    print("🔍 Searching for relevant textbook content...")
     docs = db.similarity_search(user_query)
     context = "\n".join([d.page_content for d in docs])
 
-    # Prompt that allows reasoning
+    # Build prompt with reasoning
     prompt = f"""
-Use the following textbook content as a reference. You may also reason using your general knowledge if needed, 
+Use the following textbook content as reference. You may also reason using your general knowledge if needed,
 but prioritize the textbook content. Think step by step and provide clear, detailed explanations.
 
 Textbook content:
@@ -55,8 +58,16 @@ Textbook content:
 Question: {user_query}
 """
 
-    # Stream the response
-    print("\n🤖 DeepSeek: ", end="", flush=True)
+    # Stream raw sentences first
+    console.print("\n🤖 DeepSeek: ", end="")
+    full_response = ""
     for chunk in llm.stream(prompt):
-        print(chunk, end="", flush=True)
+        full_response += chunk
+        sentences = split_sentences(chunk)
+        for sentence in sentences:
+            print(sentence + " ", end="", flush=True)
+            time.sleep(0.05)  # adjust typing speed here
     print("\n")
+
+    # Once full response is complete, render proper Markdown
+    console.print(Markdown(full_response))
