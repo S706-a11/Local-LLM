@@ -53,9 +53,16 @@ You’ll now have a local chatbot that works entirely offline.
    ```sh
    git clone https://github.com/ISNE11/Local-LLM.git
    cd Local-LLM
+   ![MIT License](https://img.shields.io/badge/License-MIT-green.svg)
+   ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
+
+   Local-LLM is an open source project that makes it easy to run Large Language Models (LLMs) entirely offline on your own machine using [Ollama](https://ollama.com/). This project is designed for privacy, speed, and full local control—no cloud required!
+
+   This project is licensed under the [MIT License](./LICENSE).
    ```
 
-2. **(Optional) Create a virtual environment**
+3. **Install Python dependencies**
+
    ```sh
    python -m venv venv
    # On Windows:
@@ -63,8 +70,6 @@ You’ll now have a local chatbot that works entirely offline.
    # On macOS/Linux:
    source venv/bin/activate
    ```
-
-3. **Install Python dependencies**
    ```sh
    pip install -r requirements.txt
    ```
