@@ -11,16 +11,22 @@ from langchain_ollama import OllamaLLM
 from langchain_huggingface import HuggingFaceEmbeddings
 
 # 1️⃣ Load your textbook
+print("📥 Loading textbook...")
 loader = TextLoader("textbook.txt", encoding="utf-8")
 docs = loader.load()
+print(f"✅ Loaded {len(docs)} document(s).")
 
 # 2️⃣ Split into chunks
+print("✂️ Splitting documents into chunks...")
 splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=100)
 texts = splitter.split_documents(docs)
+print(f"✅ Split into {len(texts)} chunks.")
 
-# 3️⃣ Create embeddings using the updated HuggingFace package
+# 3️⃣ Create embeddings
+print("🔢 Converting chunks into vector embeddings (this may take a while)...")
 hf_model = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
 db = Chroma.from_documents(texts, hf_model, persist_directory="./db")
+print("✅ Vector database created. Ready for questions!")
 
 # 4️⃣ Initialize the updated Ollama LLM
 llm = OllamaLLM(model="deepseek-r1:8b")
@@ -34,6 +40,7 @@ while True:
         break
 
     # Retrieve relevant chunks
+    print("🔍 Searching for relevant textbook content...")
     docs = db.similarity_search(user_query)
     context = "\n".join([d.page_content for d in docs])
 
