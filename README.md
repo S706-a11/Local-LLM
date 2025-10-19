@@ -39,8 +39,9 @@ textbook_create/         # Utilities for creating the textbook text file.
 After installing Ollama, open your terminal and run:
 
 ```sh
-ollama pull mistral
-ollama run mistral
+ollama pull deepseek-r1:8b
+ollama pull nomic-embed-text
+## or which ever model you want to use
 ```
 
 You’ll now have a local chatbot that works entirely offline.
@@ -70,7 +71,8 @@ You’ll now have a local chatbot that works entirely offline.
    *(If `requirements.txt` is missing, install any needed packages manually as you run the scripts.)*
 
 4. **Start Ollama**
-   - Make sure Ollama is running and the desired model (e.g., `mistral`) is available.
+   - Make sure Ollama is running and the desired model is available.
+   - Make sure the python files are set to use the correct model name.
 
 5. **Run the main script**
    ```sh
