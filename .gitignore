@@ -1,2 +1,51 @@
-/venv
-/db
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+*.sqlite3
+
+# Virtual environments
+venv/
+.env/
+.envrc
+
+# Jupyter and VS Code
+.ipynb_checkpoints/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Database and Chroma
+db/
+*.sqlite3
+
+# PDF and textbook artifacts
+textbook_create/textbook-pdf/
+textbook.txt
+
+# Misc
+*.bak
+*.tmp
+
+# Ignore Ollama cache (if any)
+.ollama/
+
+# Ignore test output
+*.out
+*.coverage
+
+# Ignore secrets
+*.secret
+*.key
+*.pem
